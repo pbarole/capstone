@@ -1,0 +1,23 @@
+<HTML>
+<TITLE>Fetch the conflicts here</title>
+<body>
+
+<h1> Conflicting trains </h1>
+<form action="/capstone/fetch_conflicts.php", method="post">
+ <select name="day">
+  <option value="Sunday">Sunday</option>
+  <option value="Monday">Monday</option>
+  <option value="Tuesday">Tuesday</option>
+  <option value="Wednesday">Wednesday</option>
+  <option value="Thrusday">Thrusday</option>
+  <option value="Friday">Friday</option>
+  <option value="Saturday">Saturday</option>
+</select> 
+<br>
+  Enter Time: <input type="time" name="Time"><br>
+<button type="submit"> Check Conflicts</button>
+<button type="submit" action="/capstone/conflict.html"> new search</button>
+</form>
+		
+</body>
+</HTML>	

@@ -1,0 +1,181 @@
+No.,Name,Type,Zone,PF,Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,src,ar,des,dep,lateness,Stoppage
+12204,Amritsar - Saharsa G...,2,NR,4,1,1,0,0,1,0,0,GKP,0:15,SHC,0:20,0:16,0:05
+4406,Delhi - Darbhanga AC...,3,NR,5,0,0,1,0,0,1,0,GKP,0:15,DBG,0:25,0:51,0:10
+12203,Saharsa - Amritsar G...,2,NR,1,0,1,1,0,0,1,0,GKP,0:45,ASR,0:50,0:14,0:05
+15101,Chhapra - Mumbai CSM...,3,NER,1,0,0,0,1,0,0,0,GKP,0:45,CSMT,0:55,1:36,0:10
+15102,Mumbai CSMT - Chhapr...,3,NER,5,1,0,0,0,0,0,0,GKP,0:55,CPR,1:05,1:02,0:10
+5065,Chhapra - Lucknow Jn...,3,NER,2,0,1,0,1,0,0,0,GKP,1:10,LJN,1:20,0:18,0:10
+55008,Gorakhpur - Patliput...*,5,NER,8,1,1,1,1,1,1,1,GKP,1:20,PPTA,1:35,3:20,0:15
+12537,Bapudham SF Express,2,NER,4,0,0,1,0,1,0,1,GKP,1:40,MUV,1:45,0:42,0:05
+5008,Howrah - Ramnagar Sp...,3,NER,4,0,1,0,0,0,0,0,GKP,1:45,RMR,1:55,0:23,0:10
+11124,Gwalior - Barauni Ma...,3,NCR,6,1,1,1,1,1,1,1,GKP,2:05,BJU,2:15,0:30,0:10
+5066,Lucknow Jn - Chhapra...,3,NER,2,1,0,1,0,0,0,0,GKP,2:25,CPR,2:35,2:49,0:10
+55042,Gorakhpur - Bettiah ...*,5,NER,2,1,1,1,1,1,1,1,GKP,2:40,BTH,2:55,0:27,0:15
+15529,Saharsa - Anand Viha...,3,ECR,4,0,0,0,0,1,0,0,GKP,2:40,ANVT,2:50,1:57,0:10
+14009,Champaran Satyagrah ...,3,NR,2,0,1,0,0,0,0,0,GKP,2:40,ANVT,2:50,1:50,0:10
+15621,Kamakhya - Anand Vih...,3,NFR,2,0,0,0,0,0,1,0,GKP,2:45,ANVT,2:55,2:58,0:10
+12566,Bihar Sampark Kranti...,2,ECR,4,1,1,1,1,1,1,1,GKP,2:55,DBG,3:00,3:55,0:05
+22412,New Delhi - Naharlag...,2,NR,5,0,1,0,0,0,0,0,GKP,3:25,NHLN,3:30,3:16,0:05
+22922,Gorakhpur - Bandra T...*,2,WR,2,0,0,1,0,0,0,0,GKP,3:25,BDTS,3:30,2:38,0:05
+2412,Arunachal AC SF Spec...,2,NR,5,0,0,0,0,0,1,0,GKP,3:25,NHLN,3:30,2:03,0:05
+5705,Katihar - Delhi Cham...,2,NFR,8,0,0,0,1,0,0,0,GKP,3:40,DLI,3:45,0:46,0:05
+15210,Amritsar - Saharsa J...,3,ECR,6,1,1,1,1,1,1,1,GKP,3:45,SHC,3:55,1:01,0:10
+15211,Jan Nayak Express (U...,3,ECR,1,1,1,1,1,1,1,1,GKP,3:50,ASR,4:00,1:31,0:10
+15069,Gorakhpur - Badshahn...*,3,NER,7,1,1,1,1,1,1,1,GKP,4:00,BNZ,4:10,2:56,0:10
+12558,Sapt Kranti SF Expre...,2,ECR,4,1,1,1,1,1,1,1,GKP,4:05,MFP,4:10,0:40,0:05
+14603,Saharsa - Amritsar J...,3,NR,3,0,0,0,0,0,0,1,GKP,4:20,ASR,4:30,0:52,0:10
+15269,Muzaffarpur - Ahmeda...,3,ECR,3,0,0,0,0,0,1,0,GKP,4:20,ADI,4:30,2:08,0:10
+15045,Gorakhpur - Okha Exp...*,3,NER,9,0,0,0,0,1,0,0,GKP,4:45,OKHA,4:55,0:04,0:10
+19410,Gorakhpur - Ahmedaba...*,3,WR,9,1,0,0,0,0,0,1,GKP,4:45,ADI,4:55,2:57,0:10
+12524,New Delhi - New Jalp...,2,NFR,6,0,1,0,0,1,0,0,GKP,4:55,NJP,5:00,2:08,0:05
+12408,Amritsar - New Jalpa...,2,NR,2,0,0,0,0,0,0,1,GKP,4:55,NJP,5:00,1:41,0:05
+19601,Udaipur City - New J...,3,NWR,6,1,0,0,0,0,0,0,GKP,4:55,NJP,5:05,2:27,0:10
+11123,Barauni - Gwalior Ma...,3,NCR,1,1,1,1,1,1,1,1,GKP,5:05,GWL,5:15,2:49,0:10
+15706,Champaran Humsafar E...,2,NFR,2,0,0,0,1,0,0,1,GKP,5:05,KIR,5:10,0:29,0:05
+55025,Gorakhpur - Gonda Pa...*,5,NER,4,1,1,1,1,1,1,1,GKP,5:20,GD,5:35,2:40,0:15
+5116,Anand Vihar Terminal...,3,NER,2,0,0,0,0,1,0,0,GKP,5:20,CPR,5:30,3:36,0:10
+4403,Barauni - Anand Viha...,3,NR,1,1,0,0,0,1,0,0,GKP,5:25,ANVT,5:35,2:43,0:10
+15018,Kashi Express (PT)*,3,NER,9,1,1,1,1,1,1,1,GKP,5:30,LTT,5:40,1:23,0:10
+15018,Gorakhpur -SCSMT Kol...*,3,CR,9,1,1,1,1,1,1,1,GKP,5:30,KOP,5:40,2:42,0:10
+11080,Gorakhpur - Mumbai L...*,3,CR,8,0,0,0,0,0,0,1,GKP,5:30,LTT,5:40,2:56,0:10
+15065,Gorakhpur - Panvel E...*,3,NER,7,1,0,1,0,1,1,0,GKP,5:30,PNVL,5:40,3:49,0:10
+15063,Gorakhpur - Mumbai L...*,3,NER,7,0,1,0,0,0,0,0,GKP,5:30,LTT,5:40,3:09,0:10
+15067,Gorakhpur - Mumbai B...*,3,NER,7,0,0,0,1,0,0,0,GKP,5:30,BDTS,5:40,1:49,0:10
+15203,Barauni - Lucknow Jn...,3,ECR,3,1,1,1,1,1,1,1,GKP,5:40,LJN,5:50,3:18,0:10
+15708,Amrapali Express,3,NFR,5,1,1,1,1,1,1,1,GKP,6:00,KIR,6:10,0:56,0:10
+12531,Gorakhpur - Lucknow ...*,2,NER,1,1,1,1,1,1,1,1,GKP,6:00,LJN,6:05,3:35,0:05
+75013,Gorakhpur-Nautanwa D...*,2,NER,7,1,1,1,1,1,1,1,GKP,6:15,NTV,6:20,3:10,0:05
+11056,Godan Express (PT)*,3,CR,8,1,0,1,1,0,1,0,GKP,6:20,LTT,6:30,2:55,0:10
+12591,Gorakhpur - Yesvantp...*,2,NER,9,0,0,0,0,0,0,1,GKP,6:35,YPR,6:40,3:50,0:05
+15008,Krishak Express,3,NER,5,1,1,1,1,1,1,1,GKP,6:35,BCY,6:45,3:42,0:10
+12511,Gorakhpur - Thiruvan...*,2,NER,9,1,0,0,0,1,1,0,GKP,6:35,TVC,6:40,2:02,0:05
+12521,Barauni - Ernakulam ...,2,ECR,1,0,0,1,0,0,0,0,GKP,6:35,ERS,6:40,2:47,0:05
+12589,Gorakhpur - Secunder...*,2,NER,9,0,0,0,1,0,0,0,GKP,6:35,SC,6:40,3:05,0:05
+15015,Gorakhpur - Yesvantp...*,3,NER,9,0,1,0,0,0,0,0,GKP,6:35,YPR,6:45,2:15,0:10
+15656,Shri Mata Vaishno De...,3,NFR,1,0,0,0,0,1,0,0,GKP,6:55,KYQ,7:05,0:12,0:10
+55072,Gorakhpur - Narkatia...*,5,NER,2,1,1,1,1,1,1,1,GKP,7:10,NKE,7:25,3:30,0:15
+15028,Maurya Express*,3,NER,2,1,1,1,1,1,1,1,GKP,7:25,HTE,7:35,1:29,0:10
+1454,Gorakhpur - Pune Jan...*,3,CR,7,0,0,1,0,0,0,0,GKP,7:25,PUNE,7:35,0:12,0:10
+55001,Gorakhpur - Ayodhya ...*,5,NER,8,1,1,1,1,1,1,1,GKP,7:40,AY,7:55,2:00,0:15
+15050,Purvanchal Express (...*,3,NER,9,0,0,0,1,0,0,1,GKP,8:00,KOAA,8:10,3:54,0:10
+55141,Gorakhpur Nautanwa P...*,5,NER,4,1,1,1,1,1,1,1,GKP,8:00,NTV,8:15,0:08,0:15
+15002,Rapti Ganga Express,3,NER,5,1,0,0,0,0,0,0,GKP,8:15,MFP,8:25,2:20,0:10
+15280,Poorabiya Express,3,ECR,5,0,0,1,0,0,0,1,GKP,8:15,SHC,8:25,0:20,0:10
+14604,Amritsar - Saharsa W...,3,NR,5,0,0,0,0,1,0,0,GKP,8:15,SHC,8:25,0:27,0:10
+2597,Gorakhpur - Mumbai C...*,2,NER,7,0,0,0,0,0,0,1,GKP,8:25,CSMT,8:30,2:03,0:05
+55020,Gorakhpur - Chhapra ...*,5,NER,2,1,1,1,1,1,1,1,GKP,8:30,CPR,8:45,2:45,0:15
+22531,Chhapra - Mathura Ex...,2,NER,1,0,1,0,1,0,1,0,GKP,8:30,MTJ,8:35,2:41,0:05
+12597,Gorakhpur - Mumbai C...*,2,NER,8,0,0,1,0,0,0,0,GKP,8:30,CSMT,8:35,0:12,0:05
+5007,Ramnagar - Howrah Sp...,3,NER,5,0,0,0,0,0,0,1,GKP,8:35,HWH,8:45,3:26,0:10
+15023,Gorakhpur - Yesvantp...*,3,NER,9,0,0,1,0,0,0,0,GKP,8:50,YPR,9:00,2:35,0:10
+12554,Vaishali SF Express ...,2,ECR,2,1,1,1,1,1,1,1,GKP,9:10,BJU,9:15,3:51,0:05
+4404,Anand Vihar Terminal...,3,NR,2,0,0,0,1,0,0,1,GKP,9:45,BJU,9:55,1:46,0:10
+75003,Gorakhpur - Barhni D...*,2,NER,6,1,1,1,1,0,1,1,GKP,9:50,BNY,9:55,0:12,0:05
+15052,Purvanchal Express (...*,3,NER,7,0,0,0,0,1,0,0,GKP,10:10,KOAA,10:20,3:06,0:10
+12530,Lucknow Jn. - Patlip...,2,NER,4,0,1,1,1,0,1,1,GKP,10:10,PPTA,10:15,3:11,0:05
+15274,Satyagraha Express,3,ECR,6,1,1,1,1,1,1,1,GKP,10:30,RXL,10:40,2:07,0:10
+4045,Gorakhpur - Anand Vi...*,3,NR,7,0,1,0,0,0,0,0,GKP,10:30,ANVT,10:40,0:25,0:10
+55077,Gorakhpur - Barhni P...*,5,NER,4,1,1,1,1,1,1,1,GKP,10:35,BNY,10:50,3:33,0:15
+22423,Gorakhpur - Amritsar...*,2,NR,9,0,1,0,0,0,0,0,GKP,10:45,ASR,10:50,2:55,0:05
+18206,Nautanwa - Durg Expr...,3,SECR,8,0,0,0,0,0,0,1,GKP,11:05,DURG,11:15,3:39,0:10
+19269,Porbandar - Muzaffar...,3,WR,5,1,0,0,0,0,0,1,GKP,11:10,MFP,11:20,3:07,0:10
+12212,Anand Vihar Terminal...,2,NR,5,0,0,0,0,1,0,0,GKP,11:10,MFP,11:15,2:48,0:05
+15048,Purvanchal Express (...*,3,NER,9,1,1,1,0,0,1,0,GKP,11:30,KOAA,11:40,2:04,0:10
+15019,Gorakhpur - Nautanwa...*,3,NER,8,0,1,1,1,1,1,1,GKP,11:30,NTV,11:40,1:39,0:10
+5105,Gorakhpur - Basti Sp...*,3,NER,1,0,1,1,1,1,1,1,GKP,11:45,BST,11:55,0:06,0:10
+12538,Bapudham SF Express,2,NER,3,0,1,0,1,0,1,0,GKP,11:55,MFP,12:00,2:07,0:05
+14674,Shaheed Express,3,NR,6,0,1,0,1,0,1,1,GKP,12:15,JYG,12:25,3:06,0:10
+55080,Gorakhpur - Narkatia...*,5,NER,2,1,1,1,1,1,1,1,GKP,12:30,NKE,12:45,1:52,0:15
+15707,Amrapali Express (PT...,3,NFR,1,1,1,1,1,1,1,1,GKP,12:35,ASR,12:45,3:32,0:10
+13020,Bagh Express,3,ER,5,1,1,1,1,1,1,1,GKP,12:45,HWH,12:55,3:13,0:10
+22532,Mathura - Chhapra Ex...,2,NER,2,0,0,1,0,1,0,1,GKP,13:05,CPR,13:10,0:54,0:05
+11082,Gorakhpur - Mumbai L...*,3,CR,8,0,0,0,0,0,1,0,GKP,13:05,LTT,13:15,1:10,0:10
+19038,Gorakhpur - Bandra T...*,3,WR,9,0,1,0,1,0,1,1,GKP,13:20,BDTS,13:30,3:14,0:10
+19040,Muzaffarpur - Bandra...,3,WR,7,1,0,1,0,1,0,0,GKP,13:20,BDTS,13:30,0:25,0:10
+18202,Nautanwa - Durg Expr...,3,SECR,5,1,0,0,0,0,1,0,GKP,13:40,DURG,13:50,0:17,0:10
+15022,Gorakhpur - Shalimar...*,3,NER,4,0,1,0,0,0,0,0,GKP,13:40,SHM,13:50,2:41,0:10
+75015,Gorakhpur - Nautanw...*,2,NER,7,1,1,1,1,1,1,1,GKP,13:50,NTV,13:55,3:38,0:05
+15653,Guwahati - Jammu Taw...,3,NFR,1,0,0,0,0,1,0,0,GKP,14:00,JAT,14:10,2:06,0:10
+19039,Bandra Terminus - Mu...,3,WR,5,0,1,0,1,0,0,1,GKP,14:00,MFP,14:10,1:00,0:10
+15097,Bhagalpur - Jammu Ta...,3,NER,1,0,0,0,0,0,1,0,GKP,14:00,JAT,14:10,0:13,0:10
+15651,Lohit Express (PT),3,NFR,1,0,0,1,0,0,0,0,GKP,14:00,JAT,14:10,0:29,0:10
+12491,Mour Dhwaj Express,2,NR,1,1,0,0,0,0,0,0,GKP,14:00,JAT,14:05,1:15,0:05
+1116,Gorakhpur ? Mumbai L...*,3,CR,1,1,0,0,0,0,0,0,GKP,14:00,LTT,14:10,2:18,0:10
+12587,Gorakhpur - Jammu Ta...*,2,NER,8,0,1,0,0,0,0,0,GKP,14:20,JAT,14:25,2:12,0:05
+15655,Kamakhya - Shri Mata...,3,NFR,1,0,1,0,0,0,0,0,GKP,14:40,SVDK,14:50,1:41,0:10
+15531,Saharsa - Amritsar J...,3,ECR,1,1,0,0,0,0,0,0,GKP,14:40,ASR,14:50,0:53,0:10
+15622,Anand Vihar Terminal...,3,NFR,4,0,0,0,0,0,0,1,GKP,14:50,KYQ,15:00,2:57,0:10
+15530,Anand Vihar Terminal...,3,ECR,4,0,0,0,0,0,1,0,GKP,14:50,SHC,15:00,2:31,0:10
+14010,Champaran Satyagrah ...,3,NR,4,1,0,0,0,0,0,0,GKP,14:50,BMKI,15:00,0:03,0:10
+55119,Gorakhpur Varanasi C...*,5,NER,6,1,1,1,1,1,1,1,GKP,15:10,BCY,15:25,3:14,0:15
+55051,Gorakhpur - Nautanwa...*,5,NER,3,1,1,1,1,1,1,1,GKP,15:15,NTV,15:30,1:00,0:15
+11038,Gorakhpur - Pune Exp...*,3,CR,8,0,0,0,0,0,0,1,GKP,15:30,PUNE,15:40,1:45,0:10
+12522,Ernakulam - Barauni ...,2,ECR,4,1,0,0,0,0,0,0,GKP,15:30,BJU,15:35,1:40,0:05
+15273,Satyagraha Express (...,3,ECR,2,1,1,1,1,1,1,1,GKP,15:30,ANVT,15:40,3:27,0:10
+15103,Gorakhpur - Manduadi...*,3,NER,3,1,1,1,1,1,1,1,GKP,16:00,MUV,16:10,2:08,0:10
+75007,Gorakhpur - Subhagpu...*,2,NER,5,1,1,1,1,1,1,0,GKP,16:00,SUBR,16:05,2:35,0:05
+12565,Bihar Sampark Kranti...,2,ECR,1,1,1,1,1,1,1,1,GKP,16:05,NDLS,16:10,1:44,0:05
+15212,Jan Nayak Express (U...,3,ECR,6,1,1,1,1,1,1,1,GKP,16:15,DBG,16:25,2:36,0:10
+12555,Gorakhdham SF Expres...*,2,NER,2,1,1,1,1,1,1,1,GKP,16:35,HSR,16:40,2:13,0:05
+12553,Vaishali SF Express ...,2,ECR,1,1,1,1,1,1,1,1,GKP,17:05,NDLS,17:10,0:55,0:05
+15106,Gorakhpur - Chhapra ...*,3,NER,7,0,1,1,1,1,1,1,GKP,17:10,CPR,17:20,0:18,0:10
+55082,Gorakhpur - Narkatia...*,5,NER,2,1,1,1,1,1,1,1,GKP,17:25,NKE,17:40,3:22,0:15
+15029,Gorakhpur - Pune Wee...*,3,NER,4,0,0,0,0,1,0,0,GKP,17:25,PUNE,17:35,3:12,0:10
+12492,Mour Dhwaj Express,2,NR,5,0,0,0,0,0,0,1,GKP,17:45,BJU,17:50,0:51,0:05
+15904,Chandigarh - Dibruga...,3,NFR,5,0,1,0,0,1,0,0,GKP,17:45,DBRG,17:55,3:39,0:10
+75005,Gorakhpur - Subhagpu...*,2,NER,6,1,1,1,1,1,1,1,GKP,17:45,SUBR,17:50,3:21,0:05
+4974,Firozpur Cantt - Dar...,3,NR,2,0,0,0,1,0,0,0,GKP,17:45,DBG,17:55,1:54,0:10
+15532,Amritsar - Saharsa J...,3,ECR,5,0,0,1,0,0,0,0,GKP,17:45,SHC,17:55,3:38,0:10
+4973,Darbhanga - Firozpur...,3,NR,2,0,0,0,0,1,0,0,GKP,17:50,FZR,18:00,3:49,0:10
+13019,Bagh Express (PT),3,ER,4,1,1,1,1,1,1,1,GKP,18:00,KGM,18:10,3:59,0:10
+55030,Gorakhpur - Narkatia...*,5,NER,2,1,1,1,1,1,1,1,GKP,18:05,NKE,18:20,1:38,0:15
+55027,Gorakhpur Gonda Pass...*,5,NER,5,1,1,1,1,1,1,1,GKP,18:15,GD,18:30,0:57,0:15
+55043,Gorakhpur Nautanwa P...*,5,NER,8,1,1,1,1,1,1,1,GKP,18:20,NTV,18:35,3:40,0:15
+55012,Gorakhpur - Siwan Pa...*,5,NER,2,1,1,1,1,1,1,1,GKP,18:30,SV,18:45,3:15,0:15
+12557,Sapt Kranti SF Expre...,2,ECR,3,1,1,1,1,1,1,1,GKP,18:40,ANVT,18:45,0:49,0:05
+11016,Kushinagar Express (...*,3,CR,1,1,1,1,1,1,1,1,GKP,19:00,LTT,19:10,1:37,0:10
+12571,Gorakhpur - Anand Vi...*,2,NER,9,1,0,0,0,0,0,0,GKP,19:00,ANVT,19:05,2:20,0:05
+55076,Gorakhpur - Siwan Pa...*,5,NER,6,1,1,1,1,1,1,1,GKP,19:15,SV,19:30,1:02,0:15
+14673,Shaheed Express (PT),3,NR,2,0,1,0,1,1,0,1,GKP,19:20,ASR,19:30,0:06,0:10
+15903,Dibrugarh - Chandiga...,3,NFR,3,0,0,1,0,0,0,1,GKP,19:45,CDG,19:55,3:06,0:10
+19710,Kamakhya - Jaipur Ka...,3,NWR,3,0,0,0,0,0,1,0,GKP,19:45,JP,19:55,1:57,0:10
+12595,Gorakhpur - Anand Vi...*,2,NER,9,0,0,1,0,1,0,0,GKP,20:00,ANVT,20:05,2:07,0:05
+18201,Durg - Nautanwa Expr...,3,SECR,6,0,0,0,0,1,0,1,GKP,20:10,NTV,20:20,0:41,0:10
+18205,Durg - Nautanwa Expr...,3,SECR,6,0,0,0,0,0,1,0,GKP,20:10,NTV,20:20,1:13,0:10
+15209,Saharsa - Amritsar J...,3,ECR,4,1,1,1,1,1,1,1,GKP,20:20,ASR,20:30,3:20,0:10
+4405,Darbhanga - Delhi A...,3,NR,2,0,0,1,0,0,1,0,GKP,20:40,DLI,20:50,0:18,0:10
+15705,Champaran Humsafar E...,2,NFR,2,0,1,0,0,1,0,0,GKP,20:45,DLI,20:50,2:58,0:05
+15654,Jammu Tawi - Guwahat...,3,NFR,5,0,0,0,0,0,0,1,GKP,20:55,GHY,21:05,1:28,0:10
+15098,Jammu Tawi - Bhagalp...,3,NER,5,0,0,0,1,0,0,0,GKP,20:55,BGP,21:05,3:32,0:10
+15270,Ahmedabad - Muzaffar...,3,ECR,5,0,1,0,0,0,0,0,GKP,20:55,MFP,21:05,1:21,0:10
+15652,Lohit Express (PT),3,NFR,5,0,0,0,0,1,0,0,GKP,20:55,GHY,21:05,2:56,0:10
+13508,Gorakhpur - Asansol ...*,3,ER,3,0,0,0,0,0,0,1,GKP,20:55,ASN,21:05,0:08,0:10
+19709,Jaipur - Kamakhya Ka...,3,NWR,5,0,0,1,0,0,0,0,GKP,20:55,KYQ,21:05,2:47,0:10
+15057,Gorakhpur - Anand Vi...*,3,NER,3,0,0,0,0,1,0,0,GKP,20:55,ANVT,21:05,2:51,0:10
+12529,Patliputra - Lucknow...,2,NER,2,0,1,1,1,0,1,1,GKP,20:55,LJN,21:00,3:16,0:05
+15001,Rapti Ganga Express,3,NER,1,0,1,0,0,0,0,0,GKP,21:15,DDN,21:25,1:18,0:10
+15005,Rapti Ganga Express*,3,NER,1,0,0,0,1,0,1,0,GKP,21:15,DDN,21:25,2:47,0:10
+5115,Chhapra - Anand Viha...,3,NER,2,0,0,1,0,0,0,0,GKP,21:15,ANVT,21:25,1:48,0:10
+9016,Gorakhpur - Mumbai B...*,3,WR,2,1,0,0,0,0,0,0,GKP,21:20,BDTS,21:30,3:55,0:10
+82910,Gorakhpur - Bandra T...*,2,WR,2,1,0,0,0,0,0,0,GKP,21:20,BDTS,21:25,2:48,0:05
+1118,Gorakhpur - Mumbai L...*,3,CR,2,0,0,0,0,1,0,0,GKP,21:45,LTT,21:55,3:12,0:10
+12541,Gorakhpur - Mumbai L...*,2,NER,9,1,1,1,1,1,1,1,GKP,21:50,LTT,21:55,1:39,0:05
+15009,Gorakhpur - GomtiNag...*,3,NER,8,1,1,1,1,1,1,1,GKP,22:00,GTNR,22:10,1:41,0:10
+15279,Poorabiya Express (P...,3,ECR,1,1,0,0,0,1,0,0,GKP,22:10,ANVT,22:20,1:06,0:10
+12523,New Jalpaiguri - New...,2,NFR,1,0,0,1,0,0,0,1,GKP,22:10,NDLS,22:15,1:45,0:05
+12407,New Jalpaiguri - Amr...,2,NR,1,0,0,0,1,0,0,0,GKP,22:10,ASR,22:15,1:52,0:05
+19602,New Jalpaiguri - Uda...,3,NWR,1,0,1,0,0,0,0,0,GKP,22:10,UDZ,22:20,3:43,0:10
+4923,Gorakhpur - Chandiga...*,3,NR,2,0,0,0,0,0,1,0,GKP,22:10,CDG,22:20,2:13,0:10
+15204,Lucknow Jn - Barauni...,3,ECR,5,1,1,1,1,1,1,1,GKP,22:15,BJU,22:25,1:51,0:10
+5718,Jalandhar City - Kat...,3,NFR,2,0,0,0,0,0,0,1,GKP,22:25,KIR,22:35,0:53,0:10
+19270,Muzaffarpur - Porban...,3,WR,4,1,1,0,0,0,0,0,GKP,22:40,PBR,22:50,2:21,0:10
+12211,Muzaffarpur - Anand ...,2,NR,4,0,0,0,0,0,1,0,GKP,22:40,ANVT,22:45,3:36,0:05
+5717,Katihar - Jalandhar ...,3,NFR,5,0,0,0,0,1,0,0,GKP,22:40,JUC,22:50,2:12,0:10
+15004,Chauri Chaura Expres...*,3,NER,3,1,1,1,1,1,1,1,GKP,22:45,CPA,22:55,1:29,0:10
+55074,Gorakhpur - Narkatia...*,5,NER,2,1,1,1,1,1,1,1,GKP,23:00,NKE,23:15,3:19,0:15
+15007,Krishak Express,3,NER,1,1,1,1,1,1,1,1,GKP,23:05,LJN,23:15,1:22,0:10
+55149,Gorakhpur - Varanasi...*,5,NER,6,1,1,1,1,1,1,1,GKP,23:20,BCY,23:35,1:11,0:15
+2411,Arunachal AC SF Spec...,2,NR,2,1,0,0,0,0,0,0,GKP,23:20,ANVT,23:25,2:06,0:05
+22411,Naharlagun - New Del...,2,NR,3,0,0,0,1,0,0,0,GKP,23:20,NDLS,23:25,1:05,0:05
+15910,Avadh Assam Express ...,3,NFR,5,1,1,1,1,1,1,1,GKP,23:45,DBRG,23:55,3:41,0:10
+15909,Avadh Assam Express ...,3,NFR,2,1,1,1,1,1,1,1,GKP,23:55,LGH,0:05,2:50,0:10

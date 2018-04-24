@@ -1,0 +1,105 @@
+/*<html>
+<title> New schedule</title>
+
+<body>
+<h1> why the hell its not working</h1>*/
+<?php
+
+
+$servername = "localhost";
+$username = "root";
+$password = "pbarole";
+$dbname = "myDB";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+
+if ($conn->connect_error)
+ {
+    die("Connection failed: " . $conn->connect_error);
+} 
+else
+{
+	$qr1="SELECT * from v1;";
+	$Time1,$Time2,$PF1,$PF2,$Ty1,$Ty2;
+	$result1 = mysqli_query($conn, $qr1);
+	while($row = $result1->fetch_assoc()) 
+	{
+		$Time1=new DateTime($row["TAR"]+$row["TLateness"]);
+		$Time2=new DateTime($row["TAR"]+$row["Lateness"]);
+		$PF1=$row["TPF"];
+		$PF2=$row["PF"];
+		$Ty1=$row["TType"];
+		$Ty2=$row["Type"];
+		$Start= $Time1->sub(new DateInterval('P15M'));
+		$End=$Time1->add(new DateInterval('P15M'));
+	
+	$qr2="SELECT NO,Name,PF,Addtime(AR,Lateness) As Arrival from CNB where Arrival between".$Start."AND ".$End." AND PF=".($PF1-1)." OR PF=".($PF1+1).";";
+	$qr3="Update V1 SET TLATENESS=addtime(TLateness,Convert(\"00:15:00\",Time) where TNO=".$row['TNO'].";";
+	$qr4="Update V1 SET LATENESS=addtime(Lateness,Convert(\"00:15:00\",Time) where NO=".$row['NO'].";";
+	$qr5="Update V1 SET TLATENESS=addtime(TLateness,Convert(\"00:25:00\",Time) where TNO=".$row['TNO'].";";
+	$qr6="Update V1 SET LATENESS=addtime(Lateness,Convert(\"00:25:00\",Time) where NO=".$row['NO'].";";
+
+
+	$result2 = mysqli_query($conn, $qr2);
+	if (mysqli_num_rows($result2) = 0) 
+	{
+		if($Ty1>$Ty2)
+		{
+			$Time1->add(new DateInterval('P15M'));
+			mysqli_query($conn,$qr3);
+			
+		}
+		else
+		{
+			if($Ty2>$Ty1)
+			{
+				$Time2->add(new DateInterval('P15M'));
+				mysqli_query($conn,$qr4);
+			}
+			else
+			{
+				if($row["TLateness"]<$row["Lateness"])
+				{
+				 $Time1->add(new DateInterval('P15M'));
+				 mysqli_query($conn,$qr3);
+				}
+				else
+				{
+				  $Time2->add(new DateInterval('P15M'));
+				  mysqli_query($conn,$qr4);
+				}
+			}
+		}
+	}
+	else
+	{
+		$Time1->add(new DateInterval('P25M'));
+		mysqli_query($conn,$qr5);
+		$Time2->add(new DateInterval('P25M'));
+		mysqli_query($conn,$qr6);
+	}
+	
+	}
+	
+	echo "<table border=\"1 px\">";
+	echo "<tr><th>TNO</th><th>TName</th><th>TType</th><th>TPF</th><th>TDES</th><th>TDEP</th><th>TLATENESS</th><th>TT</th><th>TAR</th><th>NO</th><th>Name</th><th>Type</th><th>PF</th><th>DES</th><th>DEP</th><th>Lateness</th><th>Travel_Time</th></tr>";
+
+	$result=mysqli_query($conn,$qr1)
+	if (mysqli_num_rows($result) > 0) 
+	{
+		while($row = $result->fetch_assoc()) 
+		{									
+			echo "<tr><td>".$row["TNO"]."</td><td>".$row["TName"]."</td><td>".$row["TType"]."</td><td>".$row["TPF"]."</td><td>".$row["TDES"]."</td><td>".$row["TDEP"]."</td><td>".$row["TLATENESS"]."</td><td>".$row["TT"]."</td><td>".$row["TAR"]."</td><td>".$row["NO"]."</td><td>".$row["Name"]."</td><td>".$row["Type"]."</td><td>".$row["PF"]."</td><td>".$row["des"]."</td><td>".$row["dep"]."</td><td>".$row["Lateness"]."</td><td>".$row["Travel_Time"]."</td></tr>";							
+		}
+	}
+	echo "</table>";
+	
+	}
+	mysqli_close($conn);
+
+?>
+
+/*</body>
+</html>*/

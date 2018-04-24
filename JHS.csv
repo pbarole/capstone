@@ -1,0 +1,275 @@
+No.,Name,Type,Zone,PF,Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,src,ar,des,dep,lateness,Stoppage
+22129,Tulsi Express (PT),2,CR,7,0,1,0,1,0,0,0,JHS,0:05,LTT,0:10,3:15,0:05
+15016,Yesvantpur - Gorakhp...,3,NER,2,0,0,0,0,0,0,1,JHS,0:05,YPR,0:15,1:22,0:10
+8791,Durg - Jammu Tawi We...,3,SECR,2,1,0,0,0,0,0,0,JHS,0:05,DURG,0:15,1:45,0:10
+8792,Jammu Tawi - Durg We...,3,SECR,2,0,0,1,0,0,0,0,JHS,0:10,JAT,0:20,2:14,0:10
+22706,Jammu Tawi - Tirupat...,2,SCR,2,0,0,0,0,0,0,1,JHS,0:10,JAT,0:15,1:45,0:05
+12621,Tamil Nadu SF Expres...,2,SR,4,1,1,1,1,1,1,1,JHS,0:16,MAS,0:21,1:53,0:05
+51814,Lucknow-Jhansi Passe...*,5,NCR,2,1,1,1,1,1,1,1,JHS,0:25,LKO,0:45,1:44,0:20
+12171,Mumbai LTT - Haridwa...,2,CR,4,0,0,1,0,0,1,0,JHS,0:28,LTT,0:33,3:32,0:05
+22455,Sainagar Shirdi - Ka...,2,NR,4,1,0,0,1,0,0,0,JHS,0:28,SNSI,0:33,0:14,0:05
+18215,Durg - Jammu Tawi Ex...,3,SECR,4,0,0,0,0,1,0,0,JHS,0:28,DURG,0:38,2:00,0:10
+2171,Mumbai CSMT - Jammu ...,2,CR,2,0,0,0,0,0,0,1,JHS,0:30,CSMT,0:35,1:05,0:05
+12405,Bhusaval - Hazrat Ni...,2,NR,5,0,1,0,1,0,0,0,JHS,0:40,BSL,0:45,3:59,0:05
+12409,Raigarh - H.Nizamudd...,2,NR,5,1,0,1,0,1,1,1,JHS,0:40,RIG,0:45,3:21,0:05
+22691,KSR Bengaluru - Hazr...,1,SWR,4,1,1,1,1,1,1,1,JHS,0:51,SBC,0:54,0:40,0:03
+12616,Grand Trunk (GT) Exp...,2,SR,1,1,1,1,1,1,1,1,JHS,0:55,DEE,1:00,2:41,0:05
+12213,Yesvantpur - Delhi S...,1,SWR,4,0,1,0,0,0,0,0,JHS,1:01,YPR,1:04,3:25,0:03
+2172,Jammu Tawi - Mumbai...,2,CR,2,0,1,0,0,0,0,0,JHS,1:10,JAT,1:15,2:11,0:05
+22692,Hazrat Nizamuddin - ...,1,SWR,2,1,1,1,1,1,1,1,JHS,1:15,NZM,1:18,1:50,0:03
+12533,Pushpak Express (PT),2,NER,3,1,1,1,1,1,1,1,JHS,1:30,LJN,1:35,1:22,0:05
+12155,Shaan-E-Bhopal SF Ex...,2,WCR,3,1,1,1,1,1,1,1,JHS,1:35,HBJ,1:40,0:06,0:05
+22130,Tulsi Express (PT),2,CR,2,0,0,1,0,1,0,0,JHS,1:50,ALD,1:55,0:28,0:05
+12534,Pushpak Express (PT),2,NER,1,1,1,1,1,1,1,1,JHS,1:58,CSMT,2:03,0:01,0:05
+12448,Uttar Pradesh Sampar...,2,NR,1,1,1,1,1,1,1,1,JHS,2:05,NZM,2:10,1:44,0:05
+12448,Uttar Pradesh Sampar...,2,NR,1,1,1,1,1,1,1,1,JHS,2:05,NZM,2:10,1:54,0:05
+12723,Telangana Express (P...,2,SCR,5,1,1,1,1,1,1,1,JHS,2:08,HYB,2:13,3:03,0:05
+12823,Chhattisgarh Sampark...,2,SECR,4,1,0,1,0,0,1,0,JHS,2:30,DURG,2:35,2:07,0:05
+12121,Madhya Pradesh Sampa...,2,WCR,4,0,1,0,0,1,0,1,JHS,2:30,JBP,2:35,1:02,0:05
+12549,Durg - Jammu Tawi (W...,2,SECR,4,0,0,0,1,0,0,0,JHS,2:30,DURG,2:35,0:05,0:05
+12156,Shaan E Bhopal SF Ex...,2,WCR,2,1,1,1,1,1,1,1,JHS,2:33,NZM,2:38,1:13,0:05
+12920,Malwa SF Express,2,WR,3,1,1,1,1,1,1,1,JHS,2:35,SVDK,2:40,0:48,0:05
+12649,Karnataka Sampark Kr...,2,SWR,4,1,1,1,1,0,1,0,JHS,2:50,YPR,2:55,2:29,0:05
+22705,Tirupati - Jammu Taw...,2,SCR,4,0,0,0,0,1,0,0,JHS,2:50,TPTY,2:55,3:56,0:05
+12628,Karnataka Express (P...,2,SWR,2,1,1,1,1,1,1,1,JHS,2:54,NDLS,2:59,0:33,0:05
+19053,Surat - Muzaffarpur ...,3,WR,4,0,0,0,0,0,0,1,JHS,3:00,ST,3:10,0:52,0:10
+15046,Okha - Gorakhpur Exp...,3,NER,4,0,0,1,0,0,0,0,JHS,3:05,OKHA,3:15,0:43,0:10
+14309,Ujjaini Express,3,NR,5,0,0,0,0,1,1,0,JHS,3:05,UJN,3:15,1:54,0:10
+14313,Mumbai LTT - Bareill...,3,NR,4,0,0,1,0,0,0,0,JHS,3:15,LTT,3:25,0:19,0:10
+12594,Bhopal - Lucknow Jn ...,2,NER,4,0,1,0,0,0,0,0,JHS,3:15,BPL,3:20,1:28,0:05
+14319,Indore - Bareilly We...,3,NR,5,0,0,0,0,0,1,0,JHS,3:15,INDB,3:25,0:29,0:10
+15068,Mumbai Bandra T - Go...,3,NER,2,0,0,0,0,0,0,1,JHS,3:15,BDTS,3:25,2:22,0:10
+12162,Lashkar SF Express (...,2,CR,3,1,0,0,0,0,0,0,JHS,3:25,AGC,3:30,0:56,0:05
+18216,Jammu Tawi - Durg Ex...,3,SECR,3,0,0,0,0,0,0,1,JHS,3:25,JAT,3:35,3:52,0:10
+12627,Karnataka Express (P...,2,SWR,5,1,1,1,1,1,1,1,JHS,3:33,SBC,3:38,2:51,0:05
+12184,Pratapgarh - Bhopal ...,2,WCR,1,1,0,1,0,1,0,0,JHS,3:35,PBH,3:40,1:39,0:05
+12108,Lucknow Jn. - Mumbai...,2,CR,1,0,1,0,1,0,1,0,JHS,3:35,LJN,3:40,2:44,0:05
+9014,Lucknow Jn - Mumbai ...,2,WR,2,0,0,0,0,0,0,1,JHS,3:35,LJN,3:40,2:44,0:05
+82908,Lucknow Jn - Mumbai ...,2,WR,2,0,0,0,0,0,0,1,JHS,3:35,LJN,3:40,0:41,0:05
+12189,Mahakaushal Express ...,2,WCR,4,1,1,1,1,1,1,1,JHS,3:57,JBP,4:02,0:41,0:05
+12622,Tamil Nadu SF Expres...,2,SR,2,1,1,1,1,1,1,1,JHS,3:58,NDLS,4:03,0:18,0:05
+12192,Shridham SF Express ...,2,WCR,5,1,1,1,1,1,1,1,JHS,4:00,JBP,4:05,1:23,0:05
+12590,Secunderabad - Gorak...,2,NER,4,0,0,0,0,0,0,1,JHS,4:18,SC,4:23,1:13,0:05
+12592,Yesvantpur - Gorakhp...,2,NER,2,0,0,0,1,0,0,0,JHS,4:18,YPR,4:23,3:26,0:05
+12512,Thiruvananthapuram -...,2,NER,2,0,0,1,0,1,1,0,JHS,4:18,TVC,4:23,0:17,0:05
+12522,Ernakulam - Barauni ...,2,ECR,5,1,0,0,0,0,0,0,JHS,4:18,ERS,4:23,2:01,0:05
+12214,Delhi Sarai Rohilla ...,1,SWR,2,0,0,1,0,0,0,0,JHS,4:20,DEE,4:23,2:02,0:03
+19314,Rajendranagar Termin...,3,WR,1,0,0,0,0,0,0,1,JHS,4:25,RJPB,4:35,1:01,0:10
+9308,Patna - Indore Summe...,3,WR,2,0,0,0,0,1,0,0,JHS,4:25,PNBE,4:35,3:28,0:10
+12593,Lucknow Jn - Bhopal ...,2,NER,3,1,0,0,0,0,0,0,JHS,4:25,LJN,4:30,0:27,0:05
+15029,Gorakhpur - Pune Wee...,3,NER,1,0,0,0,0,0,1,0,JHS,4:25,GKP,4:35,3:54,0:10
+19322,Rajendra Nagar Termi...,3,WR,2,0,0,1,0,0,0,0,JHS,4:37,RJPB,4:47,3:43,0:10
+12485,Hazur Sahib Nanded -...,2,NWR,5,0,1,1,0,0,1,0,JHS,4:40,NED,4:45,0:28,0:05
+12421,Hazur Sahib Nanded -...,2,NR,2,0,0,0,0,1,0,0,JHS,4:40,NED,4:45,3:11,0:05
+22457,Hazur Sahib Nanded -...,2,NR,5,1,0,0,0,0,0,0,JHS,4:40,NED,4:45,0:57,0:05
+11058,Amritsar - Mumbai CS...,3,CR,2,1,1,1,1,1,1,1,JHS,4:50,ASR,5:00,3:27,0:10
+12715,Sachkhand Express (P...,2,SCR,4,1,1,1,1,1,1,1,JHS,4:55,NED,5:00,0:59,0:05
+12542,Mumbai LTT - Gorakhp...,2,NER,3,1,1,1,1,1,1,1,JHS,5:15,LTT,5:20,0:07,0:05
+12722,Dakshin SF Express (...,2,SCR,3,1,1,1,1,1,1,1,JHS,5:20,NZM,5:25,3:12,0:05
+12722-Slip,Dakshin Link SF Expr...,2,ECoR,3,1,1,1,1,1,1,1,JHS,5:20,NZM,5:25,1:57,0:05
+12611,Chennai Central - Ha...,2,SR,4,1,0,0,0,0,0,0,JHS,5:26,MAS,5:31,1:14,0:05
+12433,Chennai Central - Ha...,1,NR,4,0,1,0,0,0,0,1,JHS,5:26,MAS,5:29,1:02,0:03
+12437,Secunderabad - Hazra...,1,NR,4,0,0,0,0,1,0,0,JHS,5:26,SC,5:29,2:07,0:03
+12441,Bilaspur - New Delhi...,1,NR,4,0,0,1,0,0,1,0,JHS,5:26,BSP,5:29,2:21,0:03
+22109,Mumbai LTT - Hazrat ...,2,CR,4,0,0,0,1,0,0,0,JHS,5:26,LTT,5:31,0:15,0:05
+19168,Varanasi - Ahmedabad...,3,WR,1,0,1,0,1,0,1,1,JHS,5:30,BSB,5:40,0:58,0:10
+19166,Darbhanga - Ahmedaba...,3,WR,1,1,0,1,0,1,0,0,JHS,5:35,DBG,5:45,0:07,0:10
+12486,Shri Ganganagar - Ha...,2,NWR,2,1,0,0,1,0,0,1,JHS,5:45,SGNR,5:50,1:24,0:05
+12269,Chennai Central - Ha...,1,SR,5,0,0,1,0,0,0,1,JHS,5:45,MAS,5:48,2:43,0:03
+12285,Secunderabad - Hazra...,1,SCR,4,0,1,0,0,0,1,0,JHS,5:45,SC,5:48,0:23,0:03
+22404,New Delhi - Puducher...,2,NR,2,0,1,0,0,0,0,0,JHS,5:45,NDLS,5:50,3:24,0:05
+12422,Amritsar - Hazur Sah...,2,NR,1,0,0,1,0,0,0,0,JHS,5:45,ASR,5:50,1:18,0:05
+22458,Una Himachal - Hazur...,2,NR,2,0,0,0,0,0,1,0,JHS,5:45,UHL,5:50,3:28,0:05
+12629,Karnataka Sampark Kr...,2,SWR,5,0,0,0,0,1,0,1,JHS,6:00,YPR,6:05,3:06,0:05
+22685,Yesvantpur - Chandig...,2,SWR,2,0,1,0,0,0,1,0,JHS,6:00,YPR,6:05,3:20,0:05
+22125,Nagpur - Amritsar AC...,2,CR,3,1,0,0,0,0,0,0,JHS,6:00,NGP,6:05,1:54,0:05
+12172,Haridwar - Mumbai LT...,2,CR,2,0,0,0,1,0,0,1,JHS,6:15,HW,6:20,2:12,0:05
+22456,Kalka - Sai Nagar Sh...,2,NR,2,0,1,0,0,0,1,0,JHS,6:15,KLK,6:20,2:46,0:05
+22168,Hazrat Nizamuddin - ...,2,WCR,2,0,0,1,0,0,0,0,JHS,6:15,NZM,6:20,3:07,0:05
+18477,Kalinga Utkal Expres...,3,ECoR,4,1,1,1,1,1,1,1,JHS,6:30,PURI,6:40,0:17,0:10
+11104,Mumbai Bandra Termin...*,3,NCR,3,0,0,0,1,1,0,0,JHS,6:40,BDTS,6:50,2:27,0:10
+4186,Patna - Jhansi Summe...*,3,NCR,2,0,0,0,0,0,1,0,JHS,6:40,PNBE,6:50,3:35,0:10
+12617,Mangala Lakshadweep ...,2,SR,5,1,1,1,1,1,1,1,JHS,6:45,ERS,6:50,3:51,0:05
+12625,Kerala Express (PT),2,SR,5,1,1,1,1,1,1,1,JHS,6:55,TVC,7:00,1:02,0:05
+11108,Bundelkhand Express,3,NCR,5,1,1,1,1,1,1,1,JHS,7:05,BSB,7:15,1:07,0:10
+11016,Kushinagar Express (...,3,CR,1,1,1,1,1,1,1,1,JHS,7:05,GKP,7:15,3:20,0:10
+22121,Mumbai LTT - Lucknow...,2,CR,4,1,0,0,0,0,0,0,JHS,7:25,LTT,7:30,2:28,0:05
+12598,Mumbai CSMT - Gorakh...,2,NER,4,0,0,0,0,1,0,0,JHS,7:25,CSMT,7:30,3:32,0:05
+2598,Mumbai CSMT - Gorakh...,2,NER,2,0,1,0,0,0,0,0,JHS,7:25,CSMT,7:30,0:59,0:05
+2111,Mumbai CSMT - Luckno...,2,CR,5,0,0,0,1,0,0,0,JHS,7:25,CSMT,7:30,2:32,0:05
+12647,Kongu SF Express,2,SR,6,0,0,1,0,0,0,0,JHS,7:35,CBE,7:40,1:41,0:05
+15024,Yesvantpur - Gorakhp...,3,NER,5,0,0,0,0,0,0,1,JHS,7:35,YPR,7:45,1:32,0:10
+18507,Hirakud (Hirakund) E...,3,ECoR,4,1,0,0,1,0,0,1,JHS,7:45,VSKP,7:55,3:04,0:10
+15030,Pune - Gorakhpur Ex...,3,NER,3,1,0,0,0,0,0,0,JHS,8:45,PUNE,8:55,2:47,0:10
+12176,Gwalior - Howrah Cha...,2,NCR,2,0,0,1,0,1,0,1,JHS,8:50,GWL,8:55,1:39,0:05
+12178,Mathura - Howrah Cha...,2,NCR,3,0,1,0,0,0,0,0,JHS,8:50,MTJ,8:55,2:19,0:05
+11105,Pratham Swatantrata ...*,3,NCR,7,0,1,0,0,0,0,0,JHS,8:50,KOAA,9:00,3:37,0:10
+1708,Atari - Jabalpur Spe...,3,WCR,2,0,1,0,0,1,0,0,JHS,9:05,ATT,9:15,0:39,0:10
+12107,Mumbai LTT - Lucknow...,2,CR,1,1,0,1,0,1,0,0,JHS,9:10,LTT,9:15,2:08,0:05
+12173,Udyog Nagri Express,2,CR,4,0,1,0,1,0,0,0,JHS,9:10,LTT,9:15,0:55,0:05
+12161,Lashkar SF Express,2,CR,7,0,0,0,0,0,0,1,JHS,9:30,LTT,9:35,1:41,0:05
+12541,Gorakhpur - Mumbai L...,2,NER,1,1,1,1,1,1,1,1,JHS,9:30,GKP,9:35,3:08,0:05
+51827,Itarsi - Jhansi Pass...*,5,NCR,4,1,1,1,1,1,1,1,JHS,9:50,ET,10:10,3:51,0:20
+51806,Manikpur - Jhansi Pa...*,5,NCR,6,1,1,1,1,1,1,1,JHS,10:05,MKP,10:25,3:17,0:20
+11802,Etawah - Jhansi Link...*,3,NCR,2,0,1,1,1,1,1,1,JHS,10:05,ETW,10:15,0:28,0:10
+21802,Indore - Gwalior - J...*,3,NCR,2,0,1,1,0,1,1,0,JHS,10:05,INDB,10:15,1:37,0:10
+12144,Sultanpur - Mumbai L...,2,CR,5,0,0,1,0,0,0,0,JHS,10:10,SLN,10:15,3:38,0:05
+12807,Samta Express,2,ECoR,4,1,1,0,1,1,1,0,JHS,10:18,VSKP,10:23,1:58,0:05
+12645,Millennium SF Expres...,2,SR,6,0,1,0,0,0,0,0,JHS,10:28,ERS,10:33,1:02,0:05
+12147,SCSMT Kolhapur - Haz...,2,CR,5,0,0,0,1,0,0,0,JHS,10:28,KOP,10:33,3:22,0:05
+12643,Thiruvananthapuram C...,2,SR,4,0,0,0,0,1,0,0,JHS,10:28,TVC,10:33,1:51,0:05
+12781,Mysuru - Delhi Hazra...,2,SWR,5,1,0,0,0,0,0,0,JHS,10:28,MYS,10:33,3:21,0:05
+12803,Visakhapatnam - Hazr...,2,ECoR,5,0,0,1,0,0,0,1,JHS,10:28,VSKP,10:33,1:57,0:05
+12002,New Delhi - Bhopal H...,1,NR,1,1,1,1,1,1,1,1,JHS,10:43,NDLS,10:46,2:17,0:03
+12103,Pune - Lucknow Jn. S...,2,CR,4,0,0,0,0,0,0,1,JHS,11:00,PUNE,11:05,2:32,0:05
+11079,Mumbai LTT - Gorakhp...,3,CR,5,0,0,0,0,0,1,0,JHS,11:00,LTT,11:10,2:10,0:10
+51832,Agra Cantt - Jhansi ...*,5,NCR,3,1,1,1,1,1,1,1,JHS,11:25,AGC,11:45,0:08,0:20
+12143,Mumbai LTT - Sultanp...,2,CR,3,0,1,0,0,0,0,0,JHS,11:35,LTT,11:40,3:06,0:05
+15102,Mumbai CSMT - Chhapr...,3,NER,2,0,0,0,0,0,0,1,JHS,11:35,CSMT,11:45,0:02,0:10
+15064,Mumbai LTT - Gorakhp...,3,NER,4,0,0,0,1,0,0,0,JHS,11:35,LTT,11:45,0:13,0:10
+12174,Udyog Nagri Express,2,CR,2,0,0,1,0,1,0,0,JHS,11:40,PBH,11:45,0:19,0:05
+12104,Lucknow Jn - Pune SF...,2,CR,1,1,0,0,0,0,0,0,JHS,11:45,LJN,11:50,1:45,0:05
+15101,Chhapra - Mumbai CSM...,3,NER,2,0,0,0,1,0,0,0,JHS,11:45,CPR,11:55,1:35,0:10
+12944,Udyogkarmi Express (...,2,WR,1,0,0,0,0,0,1,0,JHS,11:53,CNB,11:58,2:36,0:05
+12707,Andhra Pradesh Sampa...,2,SCR,4,0,0,1,0,1,0,1,JHS,12:00,TPTY,12:05,3:51,0:05
+12651,Tamil Nadu Sampark K...,2,SR,4,0,1,0,1,0,0,0,JHS,12:00,MDU,12:05,2:46,0:05
+12641,Thirukkural SF Expre...,2,SR,5,1,0,0,0,0,1,0,JHS,12:00,CAPE,12:05,2:50,0:05
+12650,Karnataka Sampark Kr...,2,SWR,2,1,1,1,0,1,0,1,JHS,12:05,NZM,12:10,2:57,0:05
+22415,Andhra Pradesh AC SF...,2,NR,5,1,1,1,1,1,1,1,JHS,12:10,VSKP,12:15,3:22,0:05
+18237,Chhattisgarh Express...,3,SECR,4,1,1,1,1,1,1,1,JHS,12:20,BSP,12:30,2:57,0:10
+59386,Penchvalley Passenge...,3,CR,4,1,1,1,1,1,1,1,JHS,12:20,CWA,12:30,2:55,0:10
+12138,Punjab Mail,2,CR,3,1,1,1,1,1,1,1,JHS,12:25,FZR,12:30,1:22,0:05
+51804,Kanpur - Jhansi Pass...*,5,NCR,2,1,1,1,1,1,1,1,JHS,12:30,CNB,12:50,1:22,0:20
+12148,Hazrat Nizamuddin - ...,2,CR,4,0,0,0,0,1,0,0,JHS,12:35,NZM,12:40,2:34,0:05
+12646,Millennium Express (...,2,SR,2,0,0,1,0,0,0,0,JHS,12:35,NZM,12:40,2:26,0:05
+12782,Delhi Hazrat Nizamud...,2,SWR,4,0,1,0,0,0,0,0,JHS,12:35,NZM,12:40,0:36,0:05
+12804,Hazrat Nizamuddin ? ...,2,ECoR,3,1,0,0,1,0,0,0,JHS,12:35,NZM,12:40,1:07,0:05
+12644,Hazrat Nizamuddin - ...,2,SR,4,0,0,0,0,0,1,0,JHS,12:35,NZM,12:40,1:27,0:05
+12050,Gatimaan Express*,1,NR,2,1,1,1,1,1,0,1,JHS,12:35,NZM,12:38,3:00,0:03
+22416,Andhra Pradesh AC SF...,2,NR,3,1,1,1,1,1,1,1,JHS,12:48,NDLS,12:53,1:05,0:05
+15066,Panvel - Gorakhpur E...,3,NER,5,1,0,1,0,1,0,1,JHS,12:50,PNVL,13:00,3:25,0:10
+11408,Lucknow Jn - Pune Ex...,3,CR,2,0,0,0,0,1,0,0,JHS,12:58,LJN,13:08,2:28,0:10
+18238,Chhattisgarh Express...,3,SECR,2,1,1,1,1,1,1,1,JHS,13:10,ASR,13:20,1:01,0:10
+18238,Chhattisgarh Express...,3,CR,2,1,1,1,1,1,1,1,JHS,13:10,ASR,13:20,2:37,0:10
+11124,Gwalior - Barauni Ma...,3,NCR,1,1,1,1,1,1,1,1,JHS,13:30,GWL,13:40,0:00,0:10
+19665,Khajuraho - Udaipur ...,3,NWR,5,1,1,1,1,1,1,1,JHS,13:30,KURJ,13:40,1:29,0:10
+11077,Jhelum Express (PT),3,CR,4,1,1,1,1,1,1,1,JHS,13:37,PUNE,13:47,0:46,0:10
+12708,Andhra Pradesh Sampa...,2,SCR,3,1,0,0,1,0,1,0,JHS,13:45,NZM,13:50,2:39,0:05
+12652,Tamil Nadu Sampark K...,2,SR,2,0,0,1,0,1,0,0,JHS,13:45,NZM,13:50,0:34,0:05
+12642,Thirukkural SF Expre...,2,SR,3,0,1,0,0,0,0,1,JHS,13:45,NZM,13:50,1:08,0:05
+12687,Madurai - Dehradun S...,2,SR,5,0,0,1,0,0,1,0,JHS,14:00,MDU,14:05,1:11,0:05
+16317,Himsagar Express (PT...,3,SR,3,1,0,0,0,0,0,0,JHS,14:00,CAPE,14:10,0:52,0:10
+16787,Tirunelveli - Shri M...,3,SR,2,1,0,0,1,0,0,0,JHS,14:00,TEN,14:10,0:46,0:10
+16687,Navyug Express (PT),3,SR,2,0,0,0,1,0,0,0,JHS,14:00,MAQ,14:10,2:08,0:10
+12687,Madurai - Chandigarh...,2,SR,6,0,0,1,0,0,1,0,JHS,14:00,MDU,14:05,3:46,0:05
+12280,Taj Express*,2,NR,1,1,1,1,1,1,1,1,JHS,14:10,NDLS,14:15,2:13,0:05
+12137,Punjab Mail (PT),2,CR,5,1,1,1,1,1,1,1,JHS,14:20,CSMT,14:25,2:52,0:05
+22868,Hazrat Nizamuddin - ...,2,SECR,2,0,0,0,1,0,0,1,JHS,14:20,NZM,14:25,0:40,0:05
+12648,Kongu Express,2,SR,2,0,0,0,1,0,0,0,JHS,14:30,NZM,14:35,0:11,0:05
+12808,Samta Express,2,ECoR,2,0,1,1,0,1,1,1,JHS,14:30,NZM,14:35,1:34,0:05
+16031,Andaman Express,3,SR,5,0,1,0,0,1,1,0,JHS,14:45,MAS,14:55,0:33,0:10
+11449,Jabalpur - Katra (Du...,3,WCR,4,0,0,1,0,0,0,0,JHS,14:45,JBP,14:55,2:38,0:10
+16093,Chennai Central - Lu...,3,SR,5,1,0,0,1,0,0,0,JHS,14:45,MAS,14:55,3:07,0:10
+18508,Hirakud (Hirakund) E...,3,ECoR,3,1,1,0,0,1,0,0,JHS,14:55,ASR,15:05,1:52,0:10
+12630,Karnataka Sampark Kr...,2,SWR,2,0,0,0,1,0,1,0,JHS,14:55,NZM,15:00,0:20,0:05
+12943,Udyogkarmi Express (...,2,WR,5,0,0,0,0,1,0,0,JHS,14:55,BL,15:00,0:14,0:05
+1453,Pune - Gorakhpur Jan...,3,CR,2,0,1,0,0,0,0,0,JHS,14:55,PUNE,15:05,0:33,0:10
+22686,Chandigarh - Yesvant...,2,SWR,3,0,0,1,0,0,0,1,JHS,14:55,CDG,15:00,3:12,0:05
+9013,Mumbai Central - Luc...,2,WR,2,0,0,0,0,0,1,0,JHS,15:00,MMCT,15:05,3:47,0:05
+82907,Mumbai Central - Luc...,2,WR,2,0,0,0,0,0,1,0,JHS,15:00,MMCT,15:05,2:14,0:05
+12175,Howrah - Gwalior Cha...,2,NCR,2,0,1,0,1,1,0,0,JHS,15:10,HWH,15:15,2:34,0:05
+12177,Howrah - Mathura Cha...,2,NCR,4,0,0,0,0,0,0,1,JHS,15:10,HWH,15:15,0:56,0:05
+19666,Udaipur City - Khaju...,3,NWR,2,1,1,1,1,1,1,1,JHS,15:20,UDZ,15:30,2:45,0:10
+12618,Mangala Lakshadweep ...,2,SR,2,1,1,1,1,1,1,1,JHS,15:30,NZM,15:35,2:50,0:05
+51817,Khajuraho - Jhansi P...*,5,NCR,4,1,1,1,1,1,1,1,JHS,15:30,KURJ,15:50,2:25,0:20
+4133,Allahabad - Bandra T...,3,NCR,2,0,0,0,1,0,0,0,JHS,15:40,ALD,15:50,0:55,0:10
+1707,Jabalpur - Atari Spe...,3,WCR,2,0,0,1,0,0,0,1,JHS,16:35,JBP,16:45,1:36,0:10
+12591,Gorakhpur - Yesvantp...,2,NER,2,0,0,0,0,0,0,1,JHS,16:45,GKP,16:50,0:59,0:05
+12511,Gorakhpur - Thiruvan...,2,NER,2,1,0,0,0,1,1,0,JHS,16:45,GKP,16:50,1:11,0:05
+12521,Barauni - Ernakulam ...,2,ECR,1,0,0,1,0,0,0,0,JHS,16:45,BJU,16:50,2:22,0:05
+12589,Gorakhpur - Secunder...,2,NER,1,0,0,0,1,0,0,0,JHS,16:45,GKP,16:50,1:15,0:05
+15015,Gorakhpur - Yesvantp...,3,NER,2,0,1,0,0,0,0,0,JHS,16:45,GKP,16:55,2:07,0:10
+22126,Amritsar - Nagpur AC...,2,CR,2,0,1,0,0,0,0,0,JHS,17:15,ASR,17:20,1:13,0:05
+11078,Jhelum Express,3,CR,3,1,1,1,1,1,1,1,JHS,17:20,JAT,17:30,0:30,0:10
+19165,Ahmedabad - Darbhang...,3,WR,4,0,1,0,0,1,0,1,JHS,17:25,ADI,17:35,1:08,0:10
+19167,Ahmedabad - Varanasi...,3,WR,5,1,0,1,1,0,1,0,JHS,17:25,ADI,17:35,2:35,0:10
+12626,Kerala Express (PT),2,SR,2,1,1,1,1,1,1,1,JHS,17:40,NDLS,17:45,2:49,0:05
+54160,Allahabad - Jhansi P...*,5,NCR,4,1,1,1,1,1,1,1,JHS,18:15,ALD,18:35,1:07,0:20
+11123,Barauni - Gwalior Ma...,3,NCR,3,1,1,1,1,1,1,1,JHS,18:30,BJU,18:40,1:54,0:10
+12001,Habibganj - New Delh...,1,NR,4,1,1,1,1,1,1,1,JHS,18:32,HBJ,18:35,0:53,0:03
+51811,Bina - Jhansi Passen...*,5,NCR,7,1,1,1,1,1,1,1,JHS,18:55,BINA,19:15,3:21,0:20
+12597,Gorakhpur - Mumbai C...,2,NER,2,0,0,1,0,0,0,0,JHS,18:55,GKP,19:00,0:24,0:05
+2597,Gorakhpur - Mumbai C...,2,NER,2,0,0,0,0,0,0,1,JHS,18:55,GKP,19:00,2:32,0:05
+19306,Guwahati - Indore Ex...,3,WR,2,0,1,0,0,0,0,0,JHS,18:55,KYQ,19:05,1:22,0:10
+1454,Gorakhpur - Pune Jan...,3,CR,2,0,0,1,0,0,0,0,JHS,19:00,GKP,19:10,2:45,0:10
+11015,Kushinagar Express (...,3,CR,1,1,1,1,1,1,1,1,JHS,19:10,LTT,19:20,3:58,0:10
+59386,Penchvalley Passenge...,5,CR,1,0,1,1,0,0,1,1,JHS,19:10,CWA,19:30,3:18,0:20
+18478,Kalinga Utkal Expres...,3,ECoR,3,1,1,1,1,1,1,1,JHS,19:15,HW,19:25,0:02,0:10
+11407,Pune - Lucknow Jn. E...,3,CR,2,0,0,0,1,0,0,0,JHS,19:20,PUNE,19:30,1:08,0:10
+22403,Puducherry - New Del...,2,NR,4,0,0,0,0,1,0,0,JHS,19:25,PDY,19:30,2:43,0:05
+14624,Patalkot Express,3,NR,3,1,1,1,1,1,1,1,JHS,19:25,DEE,19:35,3:02,0:10
+12716,Sachkhand Express,2,SCR,3,1,1,1,1,1,1,1,JHS,19:46,ASR,19:51,1:17,0:05
+11080,Gorakhpur - Mumbai L...,3,CR,4,0,0,0,0,0,0,1,JHS,20:10,GKP,20:20,2:21,0:10
+15065,Gorakhpur - Panvel E...,3,NER,2,1,0,1,0,1,1,0,JHS,20:10,GKP,20:20,1:36,0:10
+15063,Gorakhpur - Mumbai L...,3,NER,2,0,1,0,0,0,0,0,JHS,20:10,GKP,20:20,3:31,0:10
+15067,Gorakhpur - Mumbai B...,3,NER,2,0,0,0,1,0,0,0,JHS,20:10,GKP,20:20,4:00,0:10
+51816,Agra Cantt. - Jhansi...*,5,NCR,2,1,1,1,1,1,1,1,JHS,20:15,AGC,20:35,2:00,0:20
+12270,Hazrat Nizamuddin - ...,1,SR,2,0,0,1,0,0,0,1,JHS,20:22,NZM,20:25,2:28,0:03
+12286,Hazrat Nizamuddin - ...,1,SCR,2,0,1,0,0,0,1,0,JHS,20:22,NZM,20:25,2:29,0:03
+22110,Hazrat Nizamuddin - ...,2,CR,2,0,0,0,1,0,0,0,JHS,20:22,NZM,20:27,1:41,0:05
+11057,Mumbai CSMT - Amrits...,3,CR,4,1,1,1,1,1,1,1,JHS,20:30,CSMT,20:40,2:03,0:10
+12612,Hazrat Nizamuddin - ...,2,SR,1,0,1,0,0,0,0,0,JHS,20:38,NZM,20:43,0:45,0:05
+12434,Hazrat Nizamuddin - ...,1,NR,1,0,0,0,1,0,1,0,JHS,20:38,NZM,20:41,1:09,0:03
+12438,Hazrat Nizamuddin - ...,1,NR,1,1,0,0,0,0,0,0,JHS,20:38,NZM,20:41,3:15,0:03
+12442,New Delhi - Bilaspur...,1,NR,1,0,0,1,0,0,0,1,JHS,20:38,NDLS,20:41,3:46,0:03
+12191,Shridham SF Express,2,WCR,2,1,1,1,1,1,1,1,JHS,20:40,NDLS,20:45,1:29,0:05
+4906,Delhi Sarai Rohilla ...,3,NR,2,0,0,0,1,0,0,0,JHS,20:45,DEE,20:55,1:27,0:10
+22167,Singrauli - Hazrat N...,2,WCR,4,1,0,0,0,0,0,0,JHS,20:55,SGRL,21:00,1:41,0:05
+4134,Bandra Terminus - Al...,3,NCR,2,0,0,0,0,0,1,0,JHS,21:05,BDTS,21:15,1:47,0:10
+12780,Goa Express (PT),2,SWR,1,1,1,1,1,1,1,1,JHS,21:10,NZM,21:15,3:46,0:05
+12780,Delhi Hazrat Nizamud...,2,SWR,1,1,1,1,1,1,1,1,JHS,21:10,NZM,21:15,0:46,0:05
+12721,Dakshin SF Express (...,2,SCR,2,1,1,1,1,1,1,1,JHS,21:20,HYB,21:25,3:19,0:05
+12861,Dakshin Link SF Expr...,2,ECoR,4,1,1,1,1,1,1,1,JHS,21:20,VSKP,21:25,0:39,0:05
+15045,Gorakhpur - Okha Exp...,3,NER,2,0,0,0,0,1,0,0,JHS,21:20,GKP,21:30,2:38,0:10
+14310,Ujjaini Express,3,NR,2,0,0,1,1,0,0,0,JHS,21:20,DDN,21:30,2:27,0:10
+19054,Muzaffarpur - Surat ...,3,WR,2,0,1,0,0,0,0,0,JHS,21:20,MFP,21:30,3:27,0:10
+2112,Lucknow - Mumbai CSM...,2,CR,2,0,0,0,1,0,0,0,JHS,21:20,LKO,21:25,1:21,0:05
+22867,Durg - Hazrat Nizamu...,2,SECR,4,0,0,1,0,0,1,0,JHS,21:30,DURG,21:35,3:26,0:05
+16032,Andaman Express,3,SR,3,1,0,0,1,0,0,1,JHS,21:35,SVDK,21:45,3:59,0:10
+12688,Dehradun - Madurai S...,2,SR,3,0,1,0,0,0,1,0,JHS,21:35,DDN,21:40,0:58,0:05
+16318,Himsagar Express (PT...,3,SR,2,0,0,1,0,0,0,0,JHS,21:35,SVDK,21:45,3:18,0:10
+11450,Katra - Jabalpur (Du...,3,WCR,2,0,0,0,0,1,0,0,JHS,21:35,SVDK,21:45,1:50,0:10
+16318,Himsagar Express Sli...,3,SR,2,0,0,1,0,0,0,0,JHS,21:35,SVDK,21:45,3:41,0:10
+22688,Chandigarh - Madurai...,2,SR,2,0,1,0,0,0,1,0,JHS,21:35,CDG,21:40,0:51,0:05
+4905,Ashok Nagar - Delhi ...,3,NR,2,1,0,0,0,0,0,0,JHS,21:40,ASKN,21:50,1:57,0:10
+16094,Lucknow Jn. - Chenna...,3,SR,2,0,1,0,0,1,0,0,JHS,21:45,LJN,21:55,0:43,0:10
+15023,Gorakhpur - Yesvantp...,3,NER,5,0,0,1,0,0,0,0,JHS,21:45,GKP,21:55,0:51,0:10
+22122,Lucknow - Mumbai LTT...,2,CR,2,1,0,0,0,0,0,0,JHS,21:45,LKO,21:50,1:02,0:05
+12406,Hazrat Nizamuddin - ...,2,NR,3,1,0,0,0,0,1,0,JHS,21:50,NZM,21:55,0:50,0:05
+12410,H. Nizamuddin - Raig...,2,NR,3,0,1,1,1,1,0,1,JHS,21:50,NZM,21:55,3:46,0:05
+12919,Malwa SF Express (PT...,2,WR,5,1,1,1,1,1,1,1,JHS,21:55,INDB,22:00,1:59,0:05
+14623,Patalkot Express,3,NR,4,1,1,1,1,1,1,1,JHS,22:05,CWA,22:15,0:44,0:10
+51808,Banda - Jhansi Passe...*,5,NCR,6,1,1,1,1,1,1,1,JHS,22:15,BNDA,22:35,0:07,0:20
+11107,Bundelkhand Express,3,NCR,1,1,1,1,1,1,1,1,JHS,22:28,GWL,22:38,0:07,0:10
+14314,Bareilly - Mumbai LT...,3,NR,2,0,0,0,0,0,0,1,JHS,22:30,BE,22:40,1:45,0:10
+16688,Navyug Express,3,SR,2,0,0,0,0,0,1,0,JHS,22:30,SVDK,22:40,2:21,0:10
+16688,Navyug Express Slip,3,SR,2,0,0,0,0,0,1,0,JHS,22:30,SVDK,22:40,0:25,0:10
+12550,Jammu Tawi - Durg We...,2,SECR,2,0,0,0,0,1,0,0,JHS,22:30,JAT,22:35,0:19,0:05
+14320,Bareilly - Indore We...,3,NR,2,0,0,0,1,0,0,0,JHS,22:30,BE,22:40,0:05,0:10
+11110,Lucknow Jn. - Jhansi...*,3,NCR,7,1,1,1,1,1,1,1,JHS,22:35,LJN,22:45,0:42,0:10
+22181,Jabalpur - Hazrat Ni...,2,WCR,5,1,1,1,1,1,1,1,JHS,22:45,JBP,22:50,3:07,0:05
+12190,Mahakaushal Express,2,WCR,3,1,1,1,1,1,1,1,JHS,22:55,NZM,23:00,2:23,0:05
+12447,Uttar Pradesh Sampar...,2,NR,1,1,1,1,1,1,1,1,JHS,23:10,MKP,23:15,3:12,0:05
+22447,Uttar Pradesh Sampar...,2,NR,1,1,1,1,1,1,1,1,JHS,23:10,KURJ,23:15,3:56,0:05
+12183,Bhopal - Pratapgarh ...,2,WCR,4,1,0,1,0,0,1,0,JHS,23:12,BPL,23:17,2:26,0:05
+19313,Indore - Rajendranag...,3,WR,7,0,0,0,1,0,0,0,JHS,23:12,INDB,23:22,1:37,0:10
+19321,Indore - Rajendranag...,3,WR,2,0,0,0,0,0,0,1,JHS,23:12,INDB,23:22,2:29,0:10
+9307,Indore - Patna Speci...,3,WR,2,0,1,0,0,0,0,0,JHS,23:12,INDB,23:22,2:51,0:10
+19305,Indore - Guwahati We...,3,WR,3,0,0,0,0,1,0,0,JHS,23:12,INDB,23:22,2:54,0:10
+12824,Chhattisgarh Sampark...,2,SECR,2,1,0,1,0,0,1,0,JHS,23:15,NZM,23:20,2:44,0:05
+12122,Madhya Pradesh Sampa...,2,WCR,2,0,1,0,0,1,0,1,JHS,23:15,NZM,23:20,2:55,0:05
+12724,Telangana Express (P...,2,SCR,2,1,1,1,1,1,1,1,JHS,23:25,NDLS,23:30,1:53,0:05
+12615,Grand Trunk (GT) Exp...,2,SR,5,1,1,1,1,1,1,1,JHS,23:28,MAS,23:33,1:11,0:05
+12779,Goa Express (PT),2,SWR,5,1,1,1,1,1,1,1,JHS,23:50,VSG,23:55,2:33,0:05
+17305,Hubballi - Londa - D...,2,SWR,5,1,1,1,1,1,1,1,JHS,23:50,UBL,23:55,1:20,0:05
+22182,Hazrat Nizamuddin - ...,2,WCR,2,1,1,1,1,1,1,1,JHS,23:52,NZM,23:57,3:26,0:05

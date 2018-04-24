@@ -1,0 +1,10 @@
+
+
+
+ AND ADDTIME(t1.ar,t1.lateness) BETWEEN \"".$Time."\" AND ADDTIME(\"".$Time."\",\"00:15:00\")
+ 
+  AND ADDTIME(t1.ar,t1.lateness) BETWEEN convert(\"".$Time."\",TIME) AND ADDTIME(convert(\"".$Time."\",TIME),convert(\"00:30:00\",TIME))
+  
+  
+  
+  $qr="SELECT DISTINCT t1.NO as TNO,t1.Name as TName,t1.PF as TPF,t1.ar as TAR,t2.NO,t2.Name,t2.PF FROM CNB AS t1 JOIN CNB AS t2 ON  t1.PF=t2.PF AND t1.".$day."=t2.".$day." AND ADDTIME(t1.ar,t1.lateness) BETWEEN ADDTIME(t2.ar,t2.lateness) AND ADDTIME(t2.dep,t2.lateness)AND t1.NO!=t2.NO AND ADDTIME(t1.ar,t1.lateness) BETWEEN convert(\"".$Time."\",TIME) AND ADDTIME(convert(\"".$Time."\",TIME),convert(\"00:30:00\",TIME));";

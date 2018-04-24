@@ -1,0 +1,39 @@
+// fetching the conflicts
+
+    <?php
+    $con = mysql_connect("localhost","root","pbarole","mydb");
+    if (!$con)
+      {
+      die('Could not connect: ' . mysql_error());
+      }
+      echo "Schedule loaded";
+	  
+        if(isset($_POST['conflict_check'])){
+            echo("Checking conflicts");
+			
+			/*
+				$qr="SELECT * FROM CNB AS t1 JOIN CNB AS t2 WHERE t1.ar+t1.lateness BETWEEN t2.ar+t2.lateness-\"00:10\" AND t2.dep+t2.lateness+\"00:10\ AND t1,PF=t2.PF AND t1.Sunday=t2.Sunday;";
+				
+				
+			
+			*/	
+			
+		}
+        else 
+		{
+			echo" Nothing to Show";
+        }
+		
+    ?>
+     
+<HTML>
+<TITLE>Fetch the conflicts here</title>
+<body>
+
+<h1> Conflicting trians </h1>
+<form action="<?php echo $_SERVER(PHP_SELF); ?>" method="POST"    >
+            <input type="button" id="conflict_check" value="Check conflicts"/>
+        </form>
+		
+</body>
+</html>		
