@@ -1,23 +1,47 @@
-<HTML>
-<TITLE>Fetch the conflicts here</title>
-<body>
+<!doctype html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <title>Fetch Conflicts</title>
+      <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="static/style.css">
+  </head>
 
-<h1> Conflicting trains </h1>
-<form action="/capstone/fetch_conflicts.php", method="post">
- <select name="day">
-  <option value="Sunday">Sunday</option>
-  <option value="Monday">Monday</option>
-  <option value="Tuesday">Tuesday</option>
-  <option value="Wednesday">Wednesday</option>
-  <option value="Thrusday">Thrusday</option>
-  <option value="Friday">Friday</option>
-  <option value="Saturday">Saturday</option>
-</select> 
-<br>
-  Enter Time: <input type="time" name="Time"><br>
-<button type="submit"> Check Conflicts</button>
-<button type="submit" action="/capstone/conflict.html"> new search</button>
-</form>
-		
-</body>
-</HTML>	
+  <body>
+    <main class="container">
+      <h1 class="text-center"> Conflicting Trains </h1>
+
+      <form action="/capstone/fetch_conflicts.php", method="post" class="row">
+          <div class="form-group col-sm-6">
+            <label for="day">Select Day:</label>
+            <select name="day" class="form-control" id="day" required>
+              <option value="Sunday">Sunday</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thrusday">Thrusday</option>
+              <option value="Friday">Friday</option>
+              <option value="Saturday">Saturday</option>
+            </select>
+          </div>
+
+          <div class="form-group col-sm-6">
+            <label for="time">Enter Time:</label>
+            <input type="time" name="Time" class="form-control" placeholder="Enter Time" id="time" required/>
+          </div>
+
+          <div class="form-group text-center">
+              <button type="submit" class="btn btn-default"> Check Conflicts</button>
+              <button type="button" action="/capstone/conflict.html" class="btn btn-default"> New Search</button>
+          </div>
+
+      </form>
+      <div class="train-image">
+        <img class="img-responsive" src="static/train-banner.png" />
+      </div>
+    </main>
+  </body>
+</html>
