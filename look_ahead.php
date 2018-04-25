@@ -27,7 +27,7 @@ else
 	$DES1;
 	$DES2;
 	$result1 = mysqli_query($conn, $qr1);
-	
+	$qr8="Delete from V where TNO>0;";
 	echo "<table border=\"1 px\">";
 	echo "<tr><th>NO</th><th>Name</th><th>Type</th><th>PF</th><th>DES</th><th>DEP</th><th>LATENESS</th><th>TAR</th><tr>";
 	
@@ -56,12 +56,15 @@ else
 	$qr5="Update V SET TLATENESS=addtime(TLateness,\"00:25:00\") where TNO=".$row['TNO'].";";
 	$qr6="Update V SET Lateness=addtime(Lateness,\"00:25:00\") where NO=".$row['NO'].";";
 	$qr7="ISNULL(SELECT NO,Name,PF,AR from CNB where(PF=".($PF1-1)." OR PF=".($PF1+1).") AND (addtime(AR,Lateness) between  Addtime(".$str1.",".$row["TAR"].")AND Addtime(".$str2.",".$row["TAR"].")),0);";
-	$qr8="Delete from V where TNO>0;";
+	
 	$qr9="select TNO,TNAME,TType,TPF,TDES,TDEP,TLATENESS,addtime(CNB.ar,TLATENESS) as NEW_AR from V join CNB on V.TNO=CNB.NO where TNO=";
 	$qr11="select V.NO,V.Name,V.Type,V.PF,V.DES,V.DEP,V.Lateness,addtime(CNB.ar,V.Lateness) as NEW_AR from V join CNB on V.NO=CNB.NO where V.NO=";
+	
 	$result2 = mysqli_query($conn, $qr2);
 	$result3=mysqli_query($conn,$qr7);
 	
+	//checking conflict at destination station
+	 
 	
 	
 	

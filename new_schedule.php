@@ -25,7 +25,7 @@ else
 	$Ty1;
 	$Ty2;
 	$result1 = mysqli_query($conn, $qr1);
-	
+	$qr8="Delete from V where TNO>0;";
 	echo "<table border=\"1 px\">";
 	echo "<tr><th>NO</th><th>Name</th><th>Type</th><th>PF</th><th>DES</th><th>DEP</th><th>LATENESS</th><th>TAR</th><tr>";
 	
@@ -51,12 +51,13 @@ else
 	$qr5="Update V SET TLATENESS=addtime(TLateness,\"00:25:00\") where TNO=".$row['TNO'].";";
 	$qr6="Update V SET Lateness=addtime(Lateness,\"00:25:00\") where NO=".$row['NO'].";";
 	$qr7="ISNULL(SELECT NO,Name,PF,AR from CNB where(PF=".($PF1-1)." OR PF=".($PF1+1).") AND (addtime(AR,Lateness) between  Addtime(".$str1.",".$row["TAR"].")AND Addtime(".$str2.",".$row["TAR"].")),0);";
-	$qr8="Delete from V where TNO>0;";
-	$qr9="select TNO,TNAME,TType,TPF,TDES,TDEP,TLATENESS,addtime(CNB.ar,TLATENESS) as NEW_AR from V join CNB on V.TNO=CNB.NO where TNO=";
+	
+	$qr9="select V.TNO,V.TNAME,V.TType,V.TPF,V.TDES,V.TDEP,V.TLATENESS,addtime(CNB.ar,V.TLATENESS) as NEW_AR from V join CNB on V.TNO=CNB.NO where TNO=";
 	$qr11="select V.NO,V.Name,V.Type,V.PF,V.DES,V.DEP,V.Lateness,addtime(CNB.ar,V.Lateness) as NEW_AR from V join CNB on V.NO=CNB.NO where V.NO=";
 	$result2 = mysqli_query($conn, $qr2);
 	$result3=mysqli_query($conn,$qr7);
-	
+	$qr10;
+	$qr12;
 	
 	
 	
@@ -105,22 +106,22 @@ else
 			}
 			else
 			{
-				if($row["TLateness"]<$row["Lateness"])
+				if($row["TLATENESS"]<$row["Lateness"])
 				{
 				 $Time1=date_sub($t1,date_interval_create_from_date_string("00:15:00"));
 				 $str3=date_format($Time1,'Y-M-D H:i:s');
 				 
 				 $result2=mysqli_query($conn,$qr3);
-				 
+				 echo "inside equal type2		";
 				 $qr10=$qr9.$row["TNO"];
-			$result2=mysqli_query($conn,$qr10);
-			$row2=$result2->fetch_assoc();
-			if($result2)
-			{
-				echo "<tr><td>".$row["NO"]."</td><td>".$row["Name"]."</td><td>".$row["Type"]."</td><td>".$row["PF"]."</td><td>".$row["DES"]."</td><td>".$row["DEP"]."</td><td>".$row["Lateness"]."</td><td>".$row["TAR"]."</td></tr>";
-				echo "<tr><td>".$row2["TNO"]."</td><td>".$row2["TNAME"]."</td><td>".$row2["TType"]."</td><td>".$row2["TPF"]."</td><td>".$row2["TDES"]."</td><td>".$row["TDEP"]."</td><td>".$row2["TLATENESS"]."</td><td>".$row2["NEW_AR"]."</td></tr>";				
-				echo nl2br("update platform of train no.".$row["TNO"]);
-			}
+				 $result2=mysqli_query($conn,$qr10);
+				 $row2=$result2->fetch_assoc();
+					if($result2)
+					{
+					echo "<tr><td>".$row["NO"]."</td><td>".$row["Name"]."</td><td>".$row["Type"]."</td><td>".$row["PF"]."</td><td>".$row["DES"]."</td><td>".$row["DEP"]."</td><td>".$row["Lateness"]."</td><td>".$row["TAR"]."</td></tr>";
+					echo "<tr><td>".$row2["TNO"]."</td><td>".$row2["TNAME"]."</td><td>".$row2["TType"]."</td><td>".$row2["TPF"]."</td><td>".$row2["TDES"]."</td><td>".$row["TDEP"]."</td><td>".$row2["TLATENESS"]."</td><td>".$row2["NEW_AR"]."</td></tr>";				
+					echo nl2br("update platform of train no.".$row["TNO"]);
+					}
 			
 
 				}
@@ -129,16 +130,16 @@ else
 				  $Time2=date_sub($t1,date_interval_create_from_date_string("00:15:00"));
 				  $str3=date_format($Time2,'Y-M-D H:i:s');
 				  
-				  $result2->mysqli_query($conn,$qr4);
+				  $result3=mysqli_query($conn,$qr4);
 				  $result2=mysqli_query($conn,$qr12);
-			
-			$row2=$result2->fetch_assoc();
-			if($result2)
-			{
-				echo "<tr><td>".$row["TNO"]."</td><td>".$row["TNAME"]."</td><td>".$row["TType"]."</td><td>".$row["TPF"]."</td><td>".$row["TDES"]."</td><td>".$row["TDEP"]."</td><td>".$row["TLATENESS"]."</td><td>".$row["TAR"]."</td></tr>";				
-				echo "<tr><td>".$row2["NO"]."</td><td>".$row2["Name"]."</td><td>".$row2["Type"]."</td><td>".$row2["PF"]."</td><td>".$row2["DES"]."</td><td>".$row["DEP"]."</td><td>".$row2["Lateness"]."</td><td>".$row2["NEW_AR"]."</td></tr>";				
-				echo nl2br("update platform of train no.".$row["NO"]);
-			}
+					echo "inside equal type		";
+					$row2=$result2->fetch_assoc();
+					if($result2)
+					{
+					echo "<tr><td>".$row["TNO"]."</td><td>".$row["TNAME"]."</td><td>".$row["TType"]."</td><td>".$row["TPF"]."</td><td>".$row["TDES"]."</td><td>".$row["TDEP"]."</td><td>".$row["TLATENESS"]."</td><td>".$row["TAR"]."</td></tr>";				
+					echo "<tr><td>".$row2["NO"]."</td><td>".$row2["Name"]."</td><td>".$row2["Type"]."</td><td>".$row2["PF"]."</td><td>".$row2["DES"]."</td><td>".$row["DEP"]."</td><td>".$row2["Lateness"]."</td><td>".$row2["NEW_AR"]."</td></tr>";				
+					echo nl2br("update platform of train no.".$row["NO"]);
+					}
 				}
 			}
 		}
