@@ -34,9 +34,9 @@ if ($conn->connect_error) {
 				//$qr1="drop view V1;";
 				$qr="SELECT DISTINCT t1.NO as TNO,t1.Name as TName,t1.Type as TType,t1.PF as TPF,t1.des as TDES, t1.dep as TDEP,t1.lateness as TLATENESS,t1.Travel_Time as TT ,ADDTIME(t1.ar,t1.lateness) as TAR,t2.NO,t2.Name,t2.Type,t2.PF,t2.des,t2.dep,t2.Lateness, t2.Travel_Time FROM CNB AS t1 JOIN CNB AS t2 ON  t1.PF=t2.PF AND t1.".$day."=t2.".$day." AND ADDTIME(t1.ar,t1.lateness) BETWEEN ADDTIME(t2.ar,t2.lateness) AND ADDTIME(t2.dep,t2.lateness)AND t1.NO!=t2.NO AND ADDTIME(t1.ar,t1.lateness) BETWEEN convert(\"".$Time."\",TIME) AND ADDTIME(convert(\"".$Time."\",TIME),convert(\"00:30:00\",TIME));";
 				$qr2="Create OR Replace view V1 as SELECT DISTINCT t1.NO as TNO,t1.Name as TName,t1.Type as TType,t1.PF as TPF,t1.des as TDES, t1.dep as TDEP,t1.lateness as TLATENESS,t1.Travel_Time as TT ,ADDTIME(t1.ar,t1.lateness) as TAR,t2.NO,t2.Name,t2.Type,t2.PF,t2.des,t2.dep,t2.Lateness, t2.Travel_Time FROM CNB AS t1 JOIN CNB AS t2 ON  t1.PF=t2.PF AND t1.".$day."=t2.".$day." AND ADDTIME(t1.ar,t1.lateness) BETWEEN ADDTIME(t2.ar,t2.lateness) AND ADDTIME(t2.dep,t2.lateness)AND t1.NO!=t2.NO AND ADDTIME(t1.ar,t1.lateness) BETWEEN convert(\"".$Time."\",TIME) AND ADDTIME(convert(\"".$Time."\",TIME),convert(\"00:30:00\",TIME));";
-				$qr3="CREATE TABLE V  AS (SELECT * V1);";
-				$qr4="Insert into V (SELECT DISTINCT t1.NO,t1.Name,t1.Type,t1.P,t1.des, t1.dep,t1.lateness,t1.Travel_Time,ADDTIME(t1.ar,t1.lateness),t2.NO,t2.Name,t2.Type,t2.PF,t2.des,t2.dep,t2.Lateness, t2.Travel_Time FROM CNB AS t1 JOIN CNB AS t2 ON  t1.PF=t2.PF AND t1.".$day."=t2.".$day." AND ADDTIME(t1.ar,t1.lateness) BETWEEN ADDTIME(t2.ar,t2.lateness) AND ADDTIME(t2.dep,t2.lateness)AND t1.NO!=t2.NO AND ADDTIME(t1.ar,t1.lateness) BETWEEN convert(\"".$Time."\",TIME) AND ADDTIME(convert(\"".$Time."\",TIME),convert(\"00:30:00\",TIME)));";
-				$qr5="Insert into V (SELECT * from V1);";
+				$qr3="CREATE TABLE v  AS (SELECT * V1);";
+				$qr4="Insert into v (SELECT DISTINCT t1.NO,t1.Name,t1.Type,t1.P,t1.des, t1.dep,t1.lateness,t1.Travel_Time,ADDTIME(t1.ar,t1.lateness),t2.NO,t2.Name,t2.Type,t2.PF,t2.des,t2.dep,t2.Lateness, t2.Travel_Time FROM CNB AS t1 JOIN CNB AS t2 ON  t1.PF=t2.PF AND t1.".$day."=t2.".$day." AND ADDTIME(t1.ar,t1.lateness) BETWEEN ADDTIME(t2.ar,t2.lateness) AND ADDTIME(t2.dep,t2.lateness)AND t1.NO!=t2.NO AND ADDTIME(t1.ar,t1.lateness) BETWEEN convert(\"".$Time."\",TIME) AND ADDTIME(convert(\"".$Time."\",TIME),convert(\"00:30:00\",TIME)));";
+				$qr5="INSERT INTO V (SELECT * from V1);";
 				$qr8="SELECT DISTINCT t1.NO as TNO,t1.Name as TName,t1.Type as TType,t1.PF as TPF,t1.des as TDES, t1.dep as TDEP,t1.lateness as TLATENESS,t1.Travel_Time as TT ,ADDTIME(t1.ar,t1.lateness) as TAR,t2.NO,t2.Name,t2.Type,t2.PF,t2.des,t2.dep,t2.Lateness, t2.Travel_Time FROM";
 				$qr9=" AS t1 JOIN";
 				$qr10=" AS t2 ON  t1.PF=t2.PF AND t1.".$day."=t2.".$day." AND ADDTIME(t1.ar,t1.lateness) BETWEEN ADDTIME(t2.ar,t2.lateness) AND ADDTIME(t2.dep,t2.lateness) AND t1.NO!=t2.NO AND ADDTIME(t1.ar,t1.lateness) BETWEEN addtime(convert(\"";
@@ -51,7 +51,8 @@ if ($conn->connect_error) {
 					//echo nl2br("\n query executed\n");
 					//mysqli_query($conn,$qr1);
 					$result = mysqli_query($conn, $qr);
-					mysqli_query($conn,$qr2);
+					$res=mysqli_query($conn,$qr2);
+					//echo "res =  ".$res."<BR>";
 						if ($result) 
 						{
 							// output data of each row
@@ -142,7 +143,7 @@ if ($conn->connect_error) {
 								
 								for($i=0;$i<$size;$i++)
 								{
-										$qr13=$qr8.$tab1[$i].$qr9.$tab1[$i].$qr10.date_format($Start[$i],'Y-M-D H:i:s').$qr11.date_format($End[$i],'Y-M-D H:i:s').$qr12;
+										$qr13=$qr8.(string)$tab1[$i].$qr9.(string)$tab1[$i].$qr10.date_format($Start[$i],'Y-M-D H:i:s').$qr11.date_format($End[$i],'Y-M-D H:i:s').$qr12;
 										$result=mysqli_query($conn,$qr13);
 										if ($result) 
 											{
@@ -197,9 +198,10 @@ if ($conn->connect_error) {
 				{
 					echo nl2br("\nquery failed");
 				}
-			mysqli_query($conn,$qr3);
-		mysqli_query($conn,$qr5);
-			
+			$res=mysqli_query($conn,$qr3);
+			//echo "res =  ".gettype($res)."<BR>";
+		$res=mysqli_query($conn,$qr5);
+			//echo "res2 =  ".$res."<BR>";
 			
 		}
         else 
