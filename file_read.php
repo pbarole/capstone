@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 }
 
 
-/*UPLOADING THE TIME TABLE, THIS HAS TO BE DONE ONLY ONCE
+//UPLOADING THE TIME TABLE, THIS HAS TO BE DONE ONLY ONCE
 
 
 $row = 1;
@@ -150,7 +150,7 @@ VALUES(".$data[0].",'".$data[1]."','".$data[2]."','".$data[3]."',".$data[4].",".
     }	
     fclose($handle);
 }
-*/
+
 
 //UPDATING THE LATENESS OF TRAINS, THIS HAS TO BE DONE IN REAL TIME 
 else{
