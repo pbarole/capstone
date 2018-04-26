@@ -69,7 +69,8 @@ else
 			$str3=date_format($Time1,'Y-M-D H:i:s');
 			
 			mysqli_query($conn,$qr3);
-			
+			//echo "in 3";
+
 			$qr10=$qr9.$row["TNO"];
 			$result2=mysqli_query($conn,$qr10);
 			$row2=$result2->fetch_assoc();
@@ -77,7 +78,7 @@ else
 			{
 				echo "<tr><td>".$row["NO"]."</td><td>".$row["Name"]."</td><td>".$row["Type"]."</td><td>".$row["PF"]."</td><td>".$row["DES"]."</td><td>".$row["DEP"]."</td><td>".$row["Lateness"]."</td><td>".$row["TAR"]."</td></tr>";
 				echo "<tr><td>".$row2["TNO"]."</td><td>".$row2["TNAME"]."</td><td>".$row2["TType"]."</td><td>".$row2["TPF"]."</td><td>".$row2["TDES"]."</td><td>".$row["TDEP"]."</td><td>".$row2["TLATENESS"]."</td><td>".$row2["NEW_AR"]."</td></tr>";				
-				echo nl2br("update platform of train no.".$row["TNO"]);
+				echo "update platform of train no.".$row["TNO"]."<br>";
 			}	
 		
 		}
@@ -187,9 +188,9 @@ else
 		}
 	}
 	echo "</table>";*/
-	mysqli_query($conn,$qr8);
-	}
 	
+	}
+	mysqli_query($conn,$qr8);
 	mysqli_close($conn);
 
 ?>
