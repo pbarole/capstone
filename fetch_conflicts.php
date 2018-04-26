@@ -16,12 +16,12 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
       //echo nl2br("\nSchedule loaded");
-	  
-        if(isset($_POST['day']) AND $_POST['Time']){
+	echo '<head><link rel="stylesheet" type="text/css" href="static/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="static/style.css"></head>';
+	echo "<div class=\"text-center\">";
+	if(isset($_POST['day']) AND $_POST['Time']){
             //echo nl2br("Checking conflicts"); 
-			
 			 $day=$_POST['day'];
-				echo $day;
+				echo "<h1 class=\"\">".$day." Conflicts</h1>";
 			$Time=$_POST['Time'];
 			$tab1[]=array();
 			$tab2[]=array();
@@ -56,9 +56,10 @@ if ($conn->connect_error) {
 						if ($result) 
 						{
 							// output data of each row
-							echo "<table border=\"1 px\">";
-							echo "<tr><th>TNO</th><th>TName</th><th>TType</th><th>TPF</th><th>TDES</th><th>TDEP</th><th>TLATENESS</th><th>TT</th><th>TAR</th><th>NO</th><th>Name</th><th>Type</th><th>PF</th><th>DES</th><th>DEP</th><th>Lateness</th><th>Travel_Time</th></tr>";
+							echo "<table class=\"table table-bordered fetchConflict\">";
+							echo "<thead><tr><th>TNO</th><th>TName</th><th>TType</th><th>TPF</th><th>TDES</th><th>TDEP</th><th>TLATENESS</th><th>TT</th><th>TAR</th><th>NO</th><th>Name</th><th>Type</th><th>PF</th><th>DES</th><th>DEP</th><th>Lateness</th><th>Travel_Time</th></tr></thead>";
 							// output data of each row
+							echo "<tbody>";
 								while($row = $result->fetch_assoc()) 
 								{
 									
@@ -135,10 +136,11 @@ if ($conn->connect_error) {
 									 $i++;
 									}
 									*/
+								echo "</tbody>";
 								echo "</table>";
 								
 								//conflicts at destination station for other trains
-								$size=sizeof($tab1);
+								/*$size=sizeof($tab1);
 								
 								
 								for($i=0;$i<$size;$i++)
@@ -180,10 +182,11 @@ if ($conn->connect_error) {
 											echo nl2br("No conflicts at station ".$tab2[$i]."\n");
 										}
 											
-								}
-								echo "<html><body><form method=\"get\" action= \"/capstone/new_schedule.php\" ><button name=\"resolve\" type=\"submit\" >Resolve conflict</button></form></body</html>";
-								echo "<html><body><form method=\"get\" action= \"/capstone/new_schedule.php\" ><button  name=\"look_ahead\" type=\"submit\" action=\"action= \"/capstone/look_ahead.php\">Look ahead algo</button></form></body</html> ";
-													
+								}*/
+								echo '<div class="btnResolveLookHead">';
+								echo "<form method=\"get\" action= \"/capstone/new_schedule.php\" ><button name=\"resolve\" type=\"submit\" class=\"btn btn-default\">Resolve conflict</button></form>";
+								echo "<form method=\"get\" action= \"/capstone/new_schedule.php\" ><button  name=\"look_ahead\" type=\"submit\" class=\"btn btn-default\" action=\"action= \"/capstone/look_ahead.php\">Look ahead algo</button></form> ";
+								echo '</div>';			
 								
 								
 								
@@ -217,7 +220,7 @@ if ($conn->connect_error) {
 		mysqli_close($conn);
 		echo "<a href=\"/capstone/conflict.html\"> New search </a>";
 		
-		
+		echo "</div>"
     ?>
      
 	
