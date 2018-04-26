@@ -10,7 +10,8 @@ $dbname = "myDB";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
-
+echo '<head><link rel="stylesheet" type="text/css" href="static/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="static/style.css"></head>';
+echo "<div class=\"text-center\">";
 if ($conn->connect_error)
  {
     die("Connection failed: " . $conn->connect_error);
@@ -26,7 +27,8 @@ else
 	$Ty2;
 	$result1 = mysqli_query($conn, $qr1);
 	$qr8="Delete from V where TNO>0;";
-	echo "<table border=\"1 px\">";
+	echo "<h1>First Table Name</h1>";
+	echo "<table class=\"table table-bordered firstTable\">";
 	echo "<tr><th>NO</th><th>Name</th><th>Type</th><th>PF</th><th>DES</th><th>DEP</th><th>LATENESS</th><th>TAR</th><tr>";
 	
 	while($row = $result1->fetch_assoc()) 
@@ -163,8 +165,8 @@ else
 	}
 	
 	}
-	
-	echo "<table border=\"1 px\">";
+	echo "<h1>Second Table Name</h1>";
+	echo "<table class=\"table table-bordered secondTable\">";
 	echo "<tr><th>TNO</th><th>TName</th><th>TType</th><th>TPF</th><th>TDES</th><th>TDEP</th><th>TLATENESS</th><th>TT</th><th>TAR</th><th>NO</th><th>Name</th><th>Type</th><th>PF</th><th>DES</th><th>DEP</th><th>Lateness</th><th>Travel_Time</th></tr>";
 
 	$result=mysqli_query($conn,$qr1);
@@ -192,5 +194,5 @@ else
 	}
 	mysqli_query($conn,$qr8);
 	mysqli_close($conn);
-
+	echo "</div>";
 ?>

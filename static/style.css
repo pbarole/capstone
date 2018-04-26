@@ -11,8 +11,17 @@
 
 .table {
   margin: 20px auto 30px;
-  width: 70%;
 }
+.fetchConflict {
+  width: 80%;
+}
+.firstTable {
+  width: 60%;
+}
+.secondTable {
+  width: 80%;
+}
+
 .btnResolveLookHead form {
   display: inline-block;
   padding: 0 20px;
